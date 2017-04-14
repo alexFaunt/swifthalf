@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "arrow-parens": ["error", "always"],
+    "brace-style": ["error", "stroustrup"],
+    "semi": ["error", "never"],
+    "no-unused-vars": ["error", { "varsIgnorePattern": "h" }],
+    "import/prefer-default-export": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/no-unknown-property": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
