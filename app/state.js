@@ -1,9 +1,9 @@
 import { getQuery } from './utils/url'
 
-const { from = null, to = null } = getQuery()
+const { origin = null, destination = null } = getQuery()
 
 export default {
   loading: false,
-  inputs: { from, to },
+  inputs: { origin, destination },
   venues: null
 }

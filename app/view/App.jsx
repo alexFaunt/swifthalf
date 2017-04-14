@@ -4,12 +4,12 @@ import Searched from './Searched'
 import Venues from './Venues'
 import Loader from './Loader'
 
-export default ({ inputs, venues, loading }, { submitForm, initForm }) => (
+export default ({ inputs, venues, loading }, { submitForm }) => (
   <div>
     <div>Header</div>
-    <EntryForm onSubmit={submitForm} onCreate={initForm} {...inputs} />
+    <EntryForm onSubmit={submitForm} {...inputs} />
     <Loader loading={loading} />
-    <Searched {...inputs} />
-    <Venues venues={venues} />
+    { venues && <Searched {...inputs} /> }
+    { venues && <Venues venues={venues} /> }
   </div>
 )

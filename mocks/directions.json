@@ -1,0 +1,360 @@
+{
+  "geocodedWaypoints": [
+    {
+      "geocoderStatus": "OK",
+      "placeId": "ChIJNUK-eqscdkgRc0Eo90aco7k",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "geocoderStatus": "OK",
+      "placeId": "ChIJe9DRTdUadkgRAlFpoUrfj0c",
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "train_station",
+        "transit_station"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 51.5182779,
+          "lng": -0.088686
+        },
+        "southwest": {
+          "lat": 51.5133197,
+          "lng": -0.1418783
+        }
+      },
+      "copyrights": "Map data ©2017 Google",
+      "legs": [
+        {
+          "arrivalTime": {
+            "text": "7:10pm",
+            "timeZone": "Europe/London",
+            "value": 1492193400
+          },
+          "departureTime": {
+            "text": "6:56pm",
+            "timeZone": "Europe/London",
+            "value": 1492192573
+          },
+          "distance": {
+            "text": "4.3 km",
+            "value": 4277
+          },
+          "duration": {
+            "text": "14 mins",
+            "value": 827
+          },
+          "endAddress": "Oxford Circus Station, Oxford St, Soho, London W1B 3AG, UK",
+          "endLocation": {
+            "lat": 51.5152705,
+            "lng": -0.1418783
+          },
+          "startAddress": "Moorgate, London, UK",
+          "startLocation": {
+            "lat": 51.5170547,
+            "lng": -0.0888072
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 445
+              },
+              "duration": {
+                "text": "6 mins",
+                "value": 344
+              },
+              "endLocation": {
+                "lat": 51.513336,
+                "lng": -0.088686
+              },
+              "htmlInstructions": "Walk to Bank Station",
+              "polyline": {
+                "points": "q|lyH`jPt@TZHTFj@LFBLDXHj@PD@JBLHbAThAXHBJDJDLHBBD@B?B?D?B?@A@?ROXQPMVO\\SHELIHETODE@A@CFGBAJITICITc@"
+              },
+              "startLocation": {
+                "lat": 51.5170547,
+                "lng": -0.0888072
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "0.3 km",
+                    "value": 257
+                  },
+                  "duration": {
+                    "text": "3 mins",
+                    "value": 191
+                  },
+                  "endLocation": {
+                    "lat": 51.5148103,
+                    "lng": -0.08967499999999999
+                  },
+                  "htmlInstructions": "Head <b>south</b> on <b>Moorgate</b> toward <b>Coleman Street Buildings</b>",
+                  "polyline": {
+                    "points": "q|lyH`jPt@TZHTFj@LFBLDXHj@PD@JBLHbAThAXHBJDJD"
+                  },
+                  "startLocation": {
+                    "lat": 51.5170547,
+                    "lng": -0.0888072
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 133
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 99
+                  },
+                  "endLocation": {
+                    "lat": 51.513706,
+                    "lng": -0.0891336
+                  },
+                  "htmlInstructions": "Continue onto <b>Princes St</b>",
+                  "polyline": {
+                    "points": "qnlyHloPLHBBD@B?B?D?B?@A@?ROXQPMVO\\SHELIHETO"
+                  },
+                  "startLocation": {
+                    "lat": 51.5148103,
+                    "lng": -0.08967499999999999
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "34 m",
+                    "value": 34
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 29
+                  },
+                  "endLocation": {
+                    "lat": 51.5134307,
+                    "lng": -0.088919
+                  },
+                  "htmlInstructions": "Slight <b>left</b> to stay on <b>Princes St</b>",
+                  "maneuver": "turn-slight-left",
+                  "polyline": {
+                    "points": "uglyH`lPDE@A@CFGBAJITI"
+                  },
+                  "startLocation": {
+                    "lat": 51.513706,
+                    "lng": -0.0891336
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "4 m",
+                    "value": 4
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 8
+                  },
+                  "endLocation": {
+                    "lat": 51.513447,
+                    "lng": -0.08886899999999999
+                  },
+                  "htmlInstructions": "Turn <b>left</b> onto <b>Threadneedle St</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "}elyHvjPCI"
+                  },
+                  "startLocation": {
+                    "lat": 51.5134307,
+                    "lng": -0.088919
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "17 m",
+                    "value": 17
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 17
+                  },
+                  "endLocation": {
+                    "lat": 51.513336,
+                    "lng": -0.088686
+                  },
+                  "polyline": {
+                    "points": "aflyHljPTc@"
+                  },
+                  "startLocation": {
+                    "lat": 51.513447,
+                    "lng": -0.08886899999999999
+                  },
+                  "travelMode": "WALKING"
+                }
+              ],
+              "travelMode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "3.8 km",
+                "value": 3783
+              },
+              "duration": {
+                "text": "7 mins",
+                "value": 420
+              },
+              "endLocation": {
+                "lat": 51.51538499999999,
+                "lng": -0.141222
+              },
+              "htmlInstructions": "Subway towards North Acton",
+              "polyline": {
+                "points": "kelyHhiPOJHb@Hz@Cv@MjCuC`[q@~GYzASr@Sf@g@pAAFkIpb@S`AI\\I\\sA`H_AzF_@jFuAlSInBGdAInC@xBBjBjBxa@M@VdF@XBZpF~}@LbC`Et{@"
+              },
+              "startLocation": {
+                "lat": 51.513336,
+                "lng": -0.088686
+              },
+              "transitDetails": {
+                "arrivalStop": {
+                  "location": {
+                    "lat": 51.51538499999999,
+                    "lng": -0.141222
+                  },
+                  "name": "Oxford Circus Station"
+                },
+                "arrivalTime": {
+                  "text": "7:09pm",
+                  "timeZone": "Europe/London",
+                  "value": 1492193363
+                },
+                "departureStop": {
+                  "location": {
+                    "lat": 51.513336,
+                    "lng": -0.088686
+                  },
+                  "name": "Bank Station"
+                },
+                "departureTime": {
+                  "text": "7:01pm",
+                  "timeZone": "Europe/London",
+                  "value": 1492192914
+                },
+                "headsign": "North Acton",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Transport for London",
+                      "url": "https://tfl.gov.uk/modes/tube/"
+                    }
+                  ],
+                  "color": "#d50000",
+                  "shortName": "Central",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIcon": "//maps.gstatic.com/mapfiles/transit/iw2/6/uk-london-metro.png",
+                    "name": "Subway",
+                    "type": "SUBWAY"
+                  }
+                },
+                "numStops": 5
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "49 m",
+                "value": 49
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 40
+              },
+              "endLocation": {
+                "lat": 51.5152705,
+                "lng": -0.1418783
+              },
+              "htmlInstructions": "Walk to Oxford Circus Station, Oxford St, Soho, London W1B 3AG, UK",
+              "polyline": {
+                "points": "crlyHrqZZz@OBHbA"
+              },
+              "startLocation": {
+                "lat": 51.51538499999999,
+                "lng": -0.141222
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "25 m",
+                    "value": 25
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 25
+                  },
+                  "endLocation": {
+                    "lat": 51.515244,
+                    "lng": -0.141516
+                  },
+                  "polyline": {
+                    "points": "crlyHrqZZz@"
+                  },
+                  "startLocation": {
+                    "lat": 51.51538499999999,
+                    "lng": -0.141222
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "24 m",
+                    "value": 24
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 15
+                  },
+                  "endLocation": {
+                    "lat": 51.5152705,
+                    "lng": -0.1418783
+                  },
+                  "htmlInstructions": "Head <b>west</b> on <b>Oxford St</b>/<b>A40</b> toward <b>Regent St</b>/<b>A4201</b>",
+                  "polyline": {
+                    "points": "gqlyHnsZOBHbA"
+                  },
+                  "startLocation": {
+                    "lat": 51.515244,
+                    "lng": -0.141516
+                  },
+                  "travelMode": "WALKING"
+                }
+              ],
+              "travelMode": "WALKING"
+            }
+          ],
+          "trafficSpeedEntry": [],
+          "viaWaypoint": []
+        }
+      ],
+      "overviewPolyline": {
+        "points": "q|lyH`jPrCt@zAd@PDpA^rA\\VJZNNA`Ao@lAs@^UFGXWTICITc@OJHb@Hz@Cv@MjCuC`[q@~GYzAg@zAi@xAsJnf@sA`H_AzFuBxZQtDInC@xBBjBjBxa@M@VdFDt@~FbbA`Et{@Zz@OBHbA"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypointOrder": []
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,905 @@
+{
+  "htmlAttributions": [],
+  "nextPageToken": "CpQCAgEAAIt-uZ8lojuHRZqfKAtcjoq4F0KyUGTRXha2vFpwFM1JsoHbtda0AD2MeiqbW9oOvn-jX__iRbSQlfZGTn33VaTcFF9gK-VhHOmoSnSf2pXiB86l6aYKZ_QwNuS-RPIqZMZojt4J4KLTECLs4_XNw3WNsXaZq3Mk03wJJu2tDyWZmYoclPYVV5pmb4pBjjkpCiR-_UdGDXikcPzx_JefQxyKh4Llh1STH_W3TYZwHhD4x2BtG-rQ1OTrmwYUOmdESLNRo5Bl3LIwB3Jn53oR8jUQDVhpRVZBPVpZ9ecXIMXVHPJ1GAWY62x_7epKHhjJtHSdsbxdbeHufVQoC0HKEujrZRq1n7O8TfB8pg3aVZsaEhALc29YvJAelYajaZ6d13U-GhTgxtxAB6sv2_BwfjYwllbAIWgsBw",
+  "results": [
+    {
+      "formattedAddress": "103 Cannon St, London EC4N 5AG, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.5116502,
+          "lng": -0.08983039999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.51294453029151,
+            "lng": -0.08850646970849796
+          },
+          "southwest": {
+            "lat": 51.51024656970851,
+            "lng": -0.09120443029150202
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "0948153c129f1cd07fc3264dc838fdd496e57a6f",
+      "name": "All Bar One Cannon Street",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 3456,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117478601388958451513/photos\">Murali MC</a>"
+          ],
+          "photoReference": "CoQBdwAAAB5FMYO939j8V2AAt29i84cW4jAFhkdRB4oPPhMCN3XRD1AV6njUM2f_I7N1PbeDjObO_5rs1PxSFrCvX54pGMMVki5-q1G8Q0JIO9mrBpDTLl72kb52KjTIS-68BdddJYgqsI6hWGfj0aX25qJbPf8fpj-u_a7Ahc-MEPSPvlgbEhA7s9GkDEcPVmL7wY9ySKQsGhT5FvBL3ddjcM36bqhDVqMbZ5l_Gw",
+          "width": 4608
+        }
+      ],
+      "placeId": "ChIJob-aRFQDdkgRZgCM5YJ77zk",
+      "rating": 3.6,
+      "reference": "CmRRAAAAACb2Aw5byZu7grJ506JYhMwgjHNFGQERNfcRarjcdOnP_C-_L7Cyko2V6lI2OvZokOvqOgAVzr_OuO2Z-sljICnI8A0aajjUwn_zNk7wHdzg4KO4h5sAae26jDCLmZQdEhAnhgFu0wsu15GsWpufs3eMGhSOKNoIKN6no3oeiJf01A4hQ2UCeQ",
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "17-20 Ironmonger Ln, London EC2V 8EP, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.514619,
+          "lng": -0.0917495
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5159548802915,
+            "lng": -0.09036051970849798
+          },
+          "southwest": {
+            "lat": 51.5132569197085,
+            "lng": -0.09305848029150204
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "6c0793f88e1b49a0ecd5f7a88c0f96584e10336b",
+      "name": "Harry's Bar",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 3600,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100131338592110101918/photos\">Harry&#39;s Bar</a>"
+          ],
+          "photoReference": "CoQBdwAAAD2Dpp97hNcvKvdpH9O95-R7n92npIrLVwb5u1E79EXkkeQielDFrtXeX0VvEhvNVo6vFSaIZedFQlby11W_DKBNKsZcgef_dtKoBscxQ78ZowBCuRFRZrRepURLIE0r9_3F5ac2WoASsKVkBsz8FgGaKGy4d0lpnUOfMfV_z-GgEhAQ5-ORr_KtGmwWNswMRn2zGhRkFXzXJHnSleHMHXZyimNXMKOROw",
+          "width": 5400
+        }
+      ],
+      "placeId": "ChIJaVgsMlUDdkgRAo_ahj-J9iU",
+      "rating": 4,
+      "reference": "CmRRAAAAo3XygVHj0Vm4IKED7JScnMSLPP2iGNJWyt_swjwGOBuXQFc2kK9t9-0qZMxZ_I3_cfhm-rxhU8zyDXYRpncX_pzRVOLgbQhqj63-_vRUw1fKrIEhFRqV3Ov7omPDCJlWEhBdrKWe_EQIVcy-OCY8yjsyGhQrdwiWVYbrokFosbmStPgXTg62eQ",
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "140-144 Leadenhall St, London EC3V 4QT, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.51355400000001,
+          "lng": -0.082882
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5148579802915,
+            "lng": -0.08152931970849796
+          },
+          "southwest": {
+            "lat": 51.5121600197085,
+            "lng": -0.08422728029150202
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "19be0f9aea2b48a786393ba8fc745fc444454c30",
+      "name": "Revolution Bar",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 418,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105047011856183838504/photos\">Revolution Bar</a>"
+          ],
+          "photoReference": "CoQBdwAAAPqLlPZkUr1b4By4x4ui940w1LkYdJZV06Z4fCleT6w-0r5Sqj_MvbwSAR99FhLI4iphunWNqzxLf-wCEViyFg56hzCPxVjWNSR36qIxicjWcACQLxCVvpMocm3MHsif08B0gurf02oYtbOkrFRIsx2GcAfGPtS-fU6qU53YCZpqEhCRCkuO46n67Aoux2cXD-yPGhTA8szYjkRqxjbwXtMXrEoswuM-nA",
+          "width": 418
+        }
+      ],
+      "placeId": "ChIJsbq3iUsDdkgR-qWxLoPWHjc",
+      "rating": 3.4,
+      "reference": "CmRRAAAA85CEGSNZo4lsr-UoMHXBGQsfMkGwHaX845GIQLqHZW7OfGHI92ZYJH4tH00A3b-Qn97jhOWCZzIoprJApoKt6swIr6IvTUQYu91EkoCu1gqIPhNhymIiocjRq05OWVZcEhBON9YpYKaRSL-f6TzwoBW7GhTyO7fBXIQ-5wi97oPTnQwheDwcYw",
+      "types": [
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "Aldermary House, 10-15 Queen St, London EC4N 1TX, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.5128534,
+          "lng": -0.09278969999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5141578302915,
+            "lng": -0.09140381970849797
+          },
+          "southwest": {
+            "lat": 51.5114598697085,
+            "lng": -0.09410178029150204
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "e8f4bc6963cd3cc02bcac4b83ff68387ca1b750b",
+      "name": "Core Bar",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 1157,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107525490544779990334/photos\">Core Bar</a>"
+          ],
+          "photoReference": "CoQBdwAAAHRHARly9PwMEorrzJw74cVDdRPS3pInf77pCUlpoEE5NlKDfkks0lkAmlpJZU3-NSUqycio2pjcLgPS_Z_G83BLstFxfX1sNppQiVEpD4Vq3AIEYdI-xQTSKM8U3Lfj6UfphAYFmXLOKWTNb2Z37uPoHSD6MjDOQVs_hk24YIcIEhAIyTS5apaayej8qzsp0lppGhRU_U4igveX-7zbQ9kUMaCjZJQGVw",
+          "width": 1157
+        }
+      ],
+      "placeId": "ChIJNQsDclUDdkgRvZqcNZvdRgM",
+      "rating": 3.6,
+      "reference": "CmRRAAAAcbu28je0s88rBjZTNyDZaVOrkNCEprLtyCTWS6GgtpVsEfecdm8S26qBL2A1kcp4Xpxda-EMse5xxFutn7ne2RjY-_oO-hYOyHbUf5d6dNd87_TtsSowyiWGJBOK0rueEhBjHvZb09RzVWsIg33FJbhBGhRDKroq0ksXYBAqNj97khCQfx8yGg",
+      "types": [
+        "bar",
+        "night_club",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "Sky Garden, 1 Sky Garden Walk, London EC3M 8AF, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.51109899999999,
+          "lng": -0.083879
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5124479802915,
+            "lng": -0.08253001970849796
+          },
+          "southwest": {
+            "lat": 51.5097500197085,
+            "lng": -0.08522798029150203
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "4ba22612d7e075e3031df0737bb8c12d33f76939",
+      "name": "Sky Pod Bar",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 3120,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117520125759106606344/photos\">Alexandre Leprêtre</a>"
+          ],
+          "photoReference": "CoQBdwAAANnWMSsQ1NK5Pf85y58ylLLUg5gqMDoPpNY8GGStuJxumZfOfZLoEl1so9tCfVTwAwah5_KQJNgevq3a7OXCRvZWTYHatiVfeAYG0v-d4sfH2p3pgvjCC2iJ0KB8cTNelcvfVebVd7tu4l136EgZSBNod7aiJFZJtj84caO9MOc6EhBzWBSlyYTEY262uyP1qsHSGhSsfv3NtjGo2EgOQ3NG-bIYdw0bTQ",
+          "width": 4160
+        }
+      ],
+      "placeId": "ChIJO_02aFIDdkgR91mn0E9GejU",
+      "rating": 4.4,
+      "reference": "CmRRAAAA8e1PVMTdeAfoZDWc0LxOlf7yGRDojDbdO4BMOvcxV59Y0mZASlLVEOGPjZX1T92E2AZzynpir1Hg5WZhiSExafxjX05bIZYqMi5uVKGy3jhCq3FxWVaMF70pd3d45n1LEhAW38FQYigySnWcBUz5R24zGhRMjtXRlMu5dZfPuwKX9ydsYon9nQ",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "1 Sky Garden Walk, London EC3M 8AF, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.511176,
+          "lng": -0.08377699999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5125249802915,
+            "lng": -0.08242801970849796
+          },
+          "southwest": {
+            "lat": 51.5098270197085,
+            "lng": -0.08512598029150202
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "5f7c17969769d0e4dcd24b36b5f4db7ceda6f36f",
+      "name": "Fenchurch Restaurant",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 1365,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109298296792781199872/photos\">Fenchurch Restaurant</a>"
+          ],
+          "photoReference": "CoQBdwAAAKsaRUvhpWO0huVO3yLTGAsoGhn4rb0cNzvimPjUZqVJirV_5KgJkHzohMPMUH2c89MrMKdLFAKK1hhawImSEF3HjxPIz5l8EGNrOx83UVBes9HWD7lD-_1ODcF-4Nn0rVCrPghohtQiF5-VZMIFTvy1f7CLXUlLz5KTvUB6KTjHEhB5r4bTD0bdP7wd5J3feK6IGhQtnCR65xgglPO8UFhwQpv2g0jxuA",
+          "width": 1367
+        }
+      ],
+      "placeId": "ChIJO_02aFIDdkgR9lWpl_GyviE",
+      "priceLevel": 4,
+      "rating": 4.3,
+      "reference": "CmRRAAAAxreXvDC4a2tGBu50JATwC3gZrvGPZWbU7T1nq_rlM0cjCApiNYv3ie-e2DEJJj8FELH1ZYwxh-EMfAbSgyr13sEL_l_GvD4K3f9h0Q32WEpUDx1qYqvpK9WvC0mDnSzrEhBMttQD_PQ79Ce5ReRYVaQfGhSzPqTeucUErr2vaCrQ6RaUgQ-Y5Q",
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "10-12 Leadenhall Market, London EC3V 1LR, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.512877,
+          "lng": -0.083228
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.51417033029151,
+            "lng": -0.08192801970849797
+          },
+          "southwest": {
+            "lat": 51.51147236970851,
+            "lng": -0.08462598029150203
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "31364c687e2792a4402e150057bb114c69c6a543",
+      "name": "Old Tom's Bar",
+      "photos": [
+        {
+          "height": 2992,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109058381766098670249/photos\">Michael X</a>"
+          ],
+          "photoReference": "CoQBdwAAABq0wwwCUzJeggeHr0tJqrQBs5QsaU6rKK2pXjnay6MS_YoWFH3RTiu8GBwHjk_NqBP5UknQhbvtOa_r6Ay9O7_L6KkTI1JvMTOfiAOw6bv-Ku5HewITdwUP2wWut4P7V34wchBEp7mjvp0JxiHjZ8iAb452YyXanBO94_JofE4tEhApnp8tWYoeETHDnGrmPZ5mGhTEZu1DDyWvpV7NOOpdmAI0XU_zwQ",
+          "width": 4000
+        }
+      ],
+      "placeId": "ChIJNxt2jFIDdkgRm4KomnOMvbo",
+      "rating": 4.4,
+      "reference": "CmRSAAAA4cbfDpjy0puI5sDxr6k9lMJZgBBpI4y0PLnVAQJsK__HZTDE0Ehu55vSTd7dNROay2mRegqmMYeKHSVOSoyUqUlidaBtMSCrndEGzHpjbzhcDQtzbPusPzbdWbMT9KAoEhAIn85bOBTJAaXVmASqY8hOGhRmkiPsormtWEVqgINDBdeCsyx3ww",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "42, Tower 42, 25 Old Broad St, London EC2N 1HQ, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.5152446,
+          "lng": -0.0836996
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5167031802915,
+            "lng": -0.08267361970849796
+          },
+          "southwest": {
+            "lat": 51.51400521970851,
+            "lng": -0.08537158029150202
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "f910d680a01c097f3effcce484436df737aee5cd",
+      "name": "Vertigo 42",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 1379,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104111246635874032234/photos\">ZAGAT</a>"
+          ],
+          "photoReference": "CoQBdwAAAMA682uDSKiqYQ1UkTgv_PngOlBWKkxftdGTzWgKbC4LK2g2mZSVM7VP6K_JqM0qtXy-oyqPuxZ1jG8YWaYOtMWKKHMiBzNl6oGkJKcYx9YIa613VMH6CNoGY43CsZEmVtFZly3UHD0IUKU1lLdZ3480eyrxeoHXYgmOHypeIZgMEhBL4PL1vQhVWjXI_k8_7TI1GhQA-j9Zv9bgGm0c1K4jCbhXJfjO9w",
+          "width": 2048
+        }
+      ],
+      "placeId": "ChIJ1UPhM60cdkgR_vdyXiBGyvE",
+      "rating": 4,
+      "reference": "CmRSAAAAMcJEgtvrb5BORPwi5IymjsNXyu6yViA1NKf0uB74a2V6z9uS1SEAv2CjXX9sgxvQZ5TRHy2uey0f3wvOVZQF9huuWyu9Ej1_KJRJiRizgIk6gq4rEFewaYdiSyQoNXJIEhApZU-0zC1DH5x8DOpaofzVGhRB1XEKKpUsf0RBuL0DNiI2DTwMTw",
+      "types": [
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "1 New Change, St Paul’s, London EC4M 9AF, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.513618,
+          "lng": -0.09540999999999998
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5149669802915,
+            "lng": -0.09406101970849795
+          },
+          "southwest": {
+            "lat": 51.5122690197085,
+            "lng": -0.09675898029150201
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "53fed1ef85807861bb0ba8d56ff6f8f7b0656df3",
+      "name": "Madison",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 1022,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101150034898163328177/photos\">Madison</a>"
+          ],
+          "photoReference": "CoQBdwAAAHKS8pPJGaitOvMMmcZCd7L2Hs_9sJfAtdjJ3Aqugby-iBFw7a7EELliP_NtGh32zqbJjlWWlby4VT2ogTmz8tUgYp81e-ibq7ZYt3AARrZp78PunbLQzS5CCBJ6DAAvcse2BhhECWOlh-So0maqdZswb0dzh6-zSWungiRCszKQEhC13XFIKhhJxCNvpy9A5AOcGhStu_qCc0P4wz28cfsj3O9OXqVG-A",
+          "width": 1022
+        }
+      ],
+      "placeId": "ChIJQYIo3KoEdkgRLLQeg-mgnR4",
+      "rating": 3.7,
+      "reference": "CmRRAAAAS_RcuI8UiDDelKy2D4hUaocTRWt-MYlHXjS63YrseN0CyDk457PHmx1OlzjQZSDlAsu41EiYDrQcO5g-1_XZRPIymA-YiL95VXs6YTEuF6UZStMgaC_bH6W3kExcHHv6EhCqBCED5vZqXWiLdpcZNX6wGhT5TYp4nhvox_khMYjowkzPETtsrQ",
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "31-33 Foster Ln, London, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.51584599999999,
+          "lng": -0.09627899999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.51718398029149,
+            "lng": -0.09486616970849797
+          },
+          "southwest": {
+            "lat": 51.51448601970849,
+            "lng": -0.09756413029150203
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "12578b58422d469deb05145f03994a83ba3caad7",
+      "name": "The Bottlescrue",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 1196,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112886437231669297488/photos\">The Bottlescrue</a>"
+          ],
+          "photoReference": "CoQBdwAAAIFsM66JVEhfHB2Tl-V8Kenctb1rAf2H1vVw_9VJHmrhO0Y1w-rUTCZ8oBW-J6xausplv_tZWTDOOZlp9VzloP05F0FiokYdISGpPEnaD5U67roE14EkpKKlExFRuO2PR4CMeuQiqu0U7cyqy6SQlt-hBRx_WVKiSeqcYBgpeVtZEhDFkXruNGKDQjXdSs_IY4VSGhTEJ3Xmmj97G6sLsVZKuInxtngaGw",
+          "width": 1196
+        }
+      ],
+      "placeId": "ChIJXd3xJFUbdkgRvbisyb3SC7M",
+      "rating": 3.3,
+      "reference": "CmRSAAAAVptNyY5TDYKpk340RUEY0NRCBH9UQABShx42CepKiHgM3J5Vnb72DqRbcgiNZplW3fkzJhkym2hLsbuFK2d1Binoa4dCLMdESPHyyJ39CtxiQgiaFAmnrwBuADYKd7GJEhDRS2xpM_VJTduQUi_ef9rYGhTD5CSDg_C2FKociLswgdBMMusy7w",
+      "types": [
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "Heron Tower, 110 Bishopsgate, London EC2N 4AY, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.5164851,
+          "lng": -0.0809139
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.51785988029149,
+            "lng": -0.07969666970849797
+          },
+          "southwest": {
+            "lat": 51.5151619197085,
+            "lng": -0.08239463029150203
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "4581cf94e6da0ebfd9c1d679c53cb17e772144ae",
+      "name": "The Drift",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 1066,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110838946713465392411/photos\">The Drift</a>"
+          ],
+          "photoReference": "CoQBdwAAAJ0xIjNTiuFYXHKu-z_J69V61ML19WBG_F5lZ8Xyonl0BEht8Vnf4YX4b0WCptRhTK-g_6WPzx_ZWsgwwUWfZjPq-nFKSh271YRDEBrx5MakDrnyGQhGTWNPJih8SK1IRujvftjBKwUqEBgvmf6XdZie4aDC0_lavaZ-1D0qxNqjEhB0tAMXtbK8W4FshfCsERekGhTKwecbQ7_D_7XFPkfqXFEeVho2kA",
+          "width": 1069
+        }
+      ],
+      "placeId": "ChIJZ2JbzLIcdkgRv2bN0-1tHoo",
+      "rating": 3.7,
+      "reference": "CmRSAAAA03TBGw9H4e8W_U3OgozIBc5CziCeOMRnXISk3iZFkM6g-_2AuOcuA7jF9TGWjfdxT-mazY7GiheAS7ZjlamLrooXPWE3yhm7H-_H6JC1jkVGlCD97w5X6rxqQg7S5yfmEhBz5nHgeEm76y7xaE09FSh0GhTzT5_xdytCCGg0jBh5ZYSDjMxDig",
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "28 King William St, London EC4R 9AT, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.51052180000001,
+          "lng": -0.08708250000000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5118014802915,
+            "lng": -0.08562321970849798
+          },
+          "southwest": {
+            "lat": 51.5091035197085,
+            "lng": -0.08832118029150204
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "e99651eaa68dd9f09778de48da430f6fe8eda807",
+      "name": "Be At One",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 2988,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109865146207129836790/photos\">Patryk Szczygłowski</a>"
+          ],
+          "photoReference": "CoQBdwAAACEKxYEzl-S4BPCGmlJzXqkkSC_mkYT3wN-89M1nYDmdyjXFbaxm17A_HbdcEqdMXlaiCugi4E8z99gagYEwdFbWgw_oGLl505vQ07yaB0dWa7XaYO6KVjItCh0k7GZN36N-HQyzcjmkYpEi5WLCBM_i0aeMrYlB3Ovl2S2QWkBWEhDqxu9zv4lozMeDr_6APneQGhRIt5oR5am1kvPcZU3OWb-m_zAe_g",
+          "width": 5312
+        }
+      ],
+      "placeId": "ChIJwbCL7lMDdkgRFIV1xElLZkY",
+      "rating": 4.1,
+      "reference": "CmRRAAAASECkj8TBGrJRMmEk8GwBtZxC3bbv4lMjxI_Biq4FwTOvE4ila_7u4T2FojSx3xdR2wHYZW3hmGT0aSKrtL-yJ2Dhjj7rnO6ysClqToBXz0FY7_Ee-y3QIbiC5DVO62xqEhDT6T5zmllmoyOTHI06kHFIGhSoU_5_8efDD3aPT2PSmxGlps3BCw",
+      "types": [
+        "bar",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "24 Lime St, London EC3M 7HS, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.51182619999999,
+          "lng": -0.0835909
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5132063302915,
+            "lng": -0.08230356970849798
+          },
+          "southwest": {
+            "lat": 51.5105083697085,
+            "lng": -0.08500153029150204
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "f5f90488ceb9d94ccd37d8062244151470ce7c9e",
+      "name": "Barcelona Tapas Bar",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 4000,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105246008260334156512/photos\">Virginia Ward</a>"
+          ],
+          "photoReference": "CoQBdwAAAFN4NsrrcUPkkjLPYG-lb2DF-VpPwS8H3VahxCThLXsl0b6tt6Wu-hiEaCG6poxBROkfkWH5gENzgZwoysK6Cu0U-DkHwJSY3aaizqgV7YHWN9G2e7oTQn5-2kNHicJ6uPv24U4lL6Cvfl0eNfy0Jc54382q3lF4CSeVfxSfbrCKEhAuxuOZFlvHd2t_CyuEXeIGGhSFSzUIE_acjlKKuKsK3z-Q7J058A",
+          "width": 3000
+        }
+      ],
+      "placeId": "ChIJd1BUZlIDdkgRjVncqUVrPSo",
+      "priceLevel": 3,
+      "rating": 3.3,
+      "reference": "CmRRAAAAA90tQBPgLMsGDKOVOZFGq2rUeowV6WTFpsTiaO1GAyqsGmB7_UpEUZmMBJWWE2JJDTS29BIRbgckmeJrLHJqwmbsz-dmq30uXJayTFAVuZTyZttZGV6qyXFeW_-AjSdWEhBJTCS2hBylP8TWGJGcUmjRGhRIx8tFS29CJqc6mPnmyavXXfU_4g",
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "1 New Change, London EC4M 9AF, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.51382099999999,
+          "lng": -0.095468
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5151638302915,
+            "lng": -0.09373660000000002
+          },
+          "southwest": {
+            "lat": 51.5124658697085,
+            "lng": -0.09731539999999998
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id": "0267aab67d5098d7fdd8f154fa8b391e8018287b",
+      "name": "One New Change",
+      "openingHours": {
+        "openNow": false,
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 4160,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101262587682201976380/photos\">Malcolm Munnelly</a>"
+          ],
+          "photoReference": "CoQBdwAAAK_H5HJRtScHChpEcV63ps-IofmLjfyh_-eyDBf0bssLOoRNP8xdjACryfIT68p-Pr8iev2N9Ncii0_G4sZlmbp_t2z36I8GXqyIVE91VOUNS1t_3w_tWDK8x_ilWYlh1pU52WHUtJUKIb48NlCPY1hCAyTdSS5NTamY5hRJy2sbEhC0F6YH53kzEW3c9K_JSIsAGhQUCgokpNY7H8OACCmgabHU0yydug",
+          "width": 3120
+        }
+      ],
+      "placeId": "ChIJYyCDk6oEdkgR9Ni5bq_oClo",
+      "rating": 4.2,
+      "reference": "CmRRAAAAirvmbHzxWM5UZu0yZ5nWigckiTXNwuaiwJn9R_VmpZMkDI2xz4xeQFvr7hpZGKzIGf0JVo9DdwfzWLVyDg-KXNqPD7L83uyyq9BdLR1dB34F11Zn_e_bkchePahXZur8EhCJlrFl0q8q5UTSIEFVg3cxGhQCBcXS7SvOcjyLW9mYMiryn5EG-w",
+      "types": [
+        "shopping_mall",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "2 St Mary at Hill, London EC3R 8EE, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.5103448,
+          "lng": -0.0833908
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.51169043029149,
+            "lng": -0.08203661970849796
+          },
+          "southwest": {
+            "lat": 51.5089924697085,
+            "lng": -0.08473458029150202
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "162122d01db0cfe089e05c545b387e791565cb5b",
+      "name": "Jamies Wine Bar and Restaurant",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 2579,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115740563536656346308/photos\">Jamies Wine Bar and Restaurant</a>"
+          ],
+          "photoReference": "CoQBdwAAALTMUIKxwtqkCr5cwAmG3_HCz2u276PaCS0146C_4sAQFx6qOI1wdHGXBOVjVsPabTfOV5FMxDMzmorzAQRK2Oh4SKLMDXXQD58Yt4LXQz8WB779j3lrtVRCaGLbkiloNBHUCrNrHfa8WCu0pC8keo6VdCwG1IBEQ8C7AK8c_bFCEhDYcMq98iGjS6iGN5jMm_qRGhSJfFrmNAlvgP8XrkujXuGkpGgTkA",
+          "width": 4066
+        }
+      ],
+      "placeId": "ChIJJdBfR1IDdkgRrk44nnxyIio",
+      "rating": 4.3,
+      "reference": "CmRRAAAAlr1IG0TJUs6EJdinpEQpcduTjw6UE29qqsXGRLlob-stWH3UA51QSpMkhwL6Y2tmFuEdbXccZP-d7NXBoBohWpTtdio0R6k63Hm4oiJ2QATgyUIUI7EYJ1y_wUUs0XemEhDvGP8ovca_ZKtaHl7dssyzGhQ1c4pivQ2VI-al0I9L-NJOB9QlUg",
+      "types": [
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "5 Abchurch Yard, London EC4N 7BA, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.5114873,
+          "lng": -0.0885706
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5128561302915,
+            "lng": -0.08717976970849797
+          },
+          "southwest": {
+            "lat": 51.5101581697085,
+            "lng": -0.08987773029150203
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "60dc03b101fdebbd2117ac96b006415680439cb0",
+      "name": "Harry's Bar",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 533,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102614285186042994019/photos\">Marta I</a>"
+          ],
+          "photoReference": "CoQBdwAAAPOOYRZ2D3Uv_dEL1wirZuSC_8u-RPNkJhA_oE8mD_NdRWRHafee3Z6HfQmoYKF1v75AHCUpXh1ogStZT7o5A7KjwpRZ-2Ys83I0EiX5k6IDVvoIQUP2FGOeVgFMk0r4fe4Jpddn7Q8fd8WnXEwO3XtSjupH9DInWmNY_qrUbjk4EhBy_m72-wy_IE6cv1qWB91bGhTwOaCMy-oIC9m-hpHAiCwyLhyLtg",
+          "width": 800
+        }
+      ],
+      "placeId": "ChIJKfurcVQDdkgRF2kSTB-gjbM",
+      "rating": 4.2,
+      "reference": "CmRSAAAA53Ujq6wgHgI9H-qpvfFa27OBTOgfWTjVvY4YjwTo_7a2tgBP_y6ViSJSO1tjVFGxKKJ374nPgaYb0shak0kDt8tU_WplQ71qB8sdpul93yFO6U2f2TlLQjYEZA0gwlfVEhC6pO6SK66BG3htI1Ntk2rMGhSuP3lGvs8JT4ElGDvkSBrCMiDc9w",
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "111 Old Broad St, London EC2N 1AP, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.51556309999999,
+          "lng": -0.08442079999999998
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5169152802915,
+            "lng": -0.08297211970849795
+          },
+          "southwest": {
+            "lat": 51.5142173197085,
+            "lng": -0.08567008029150201
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "aeec43c47e773f73030ffb45a334fe0c1506c630",
+      "name": "The Otherist",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 842,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104230373500819322779/photos\">The Otherist</a>"
+          ],
+          "photoReference": "CoQBdwAAAHqqCsVYxxkerIHdGaaJeUeevgDv2seLsfPrESwDzu6awt2vjjiXAOYHO9xxbmYKVzJVBlJ26pFwCzDxVTLpbKKwmSjgUwEUfk8BXdwQAMC0e49JmxSnAIXMYtw6yd8EshzimqzmeC5QkRrhS13zfDc9016d2JocQWW6wN3WgOgdEhDIKPCXp4jGvwx2IDvPakU2GhR7sa1ihvJ-UcDnFdCkWTGAm2Ee1w",
+          "width": 842
+        }
+      ],
+      "placeId": "ChIJ8VTmL60cdkgRygxFv1l_WWY",
+      "rating": 3.9,
+      "reference": "CmRRAAAAY-j1bbSMqThhD7aOgqt9GWNcKHtiPVve4dOlioHBKI9ociHMIbnz1mdAG5frGxWrxCMMY_mTSJCIcIytBOvdpFvjtJ349xXHzL_n3G4Y63MDqqpKDvm_0kB1dyAxoPQvEhDBwwYEmA2-y77zJ0J187YgGhRMoAKBFPqFHjAbRsHZMtxUz1FShA",
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "2, 6 Gutter Ln, London EC2V 8AS, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.51525629999999,
+          "lng": -0.0956316
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.51660628029149,
+            "lng": -0.09417236970849797
+          },
+          "southwest": {
+            "lat": 51.51390831970849,
+            "lng": -0.09687033029150204
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "eaaf4d620842e6d15b80bff896ad4093f69c5111",
+      "name": "Roundhouse Bar",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "placeId": "ChIJ90fZNVUbdkgRhpuDBM_aGrA",
+      "reference": "CmRSAAAAZHBeMq9wZFggJT9LEBfj2HiU8XRu9Ry_4k9-iwYN45FC2qmY3IbvX6zbWQRqfED5TQMw2nhYJ8cn40BYNvqB2SzdRX2lvIJ9FqslnzhjExuewf1ZqVxP76KT7c04u1gaEhCGmAMw166Il1KqRCw9-OZiGhRF-U3wDhg-UkBiluLYfhL7CYy9jg",
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "25 Basinghall St, London EC2V 5HA, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.5164388,
+          "lng": -0.0911555
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.51780988029149,
+            "lng": -0.08997261970849797
+          },
+          "southwest": {
+            "lat": 51.5151119197085,
+            "lng": -0.09267058029150203
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "0c0a9b6312275ba5f4f7dbf0e488161df62c6844",
+      "name": "Davy's at Woolgate Bar and Brasserie",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 499,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115233829966484950403/photos\">Davy&#39;s at Woolgate Bar and Brasserie</a>"
+          ],
+          "photoReference": "CoQBdwAAAOFS7CyMmv-_nT8xPSQBgsD5UtmVjTy0H3JvN28H4G0XtBW9iIweYIhAj2IVJ3R26DzmT_YMyg8FHat1W-3_a7Li_L-y1IxmVBHbFBPdqhcIlfpTCiU99UX9Y80uSXG6n3dY4klab6mw0mRECUZRpFvnOiu3jtvNcMUiIypqPPRsEhAZyqRr7ETwfBswgfHVJ2q_GhTAlZvtnd-j_v9PxBzHwxMy_qNYyA",
+          "width": 499
+        }
+      ],
+      "placeId": "ChIJuWp236ocdkgRbkMdLYd2y0Y",
+      "rating": 3.8,
+      "reference": "CmRRAAAAtvue_Rtvm9SZhswSB2okSjCOxvQGKr3BFgm_Jh24Yy1HAVfoMpQhL3QGfZwxB_q0ofcxs-arWQTnFtwqj1gyNMwG7tM8X1CXerALXID096Kx95yaPtX-cLOVWLUcFWmWEhB2-IQBYxSdNrPQKpOMDkmlGhQoc3l1jND_GHjQYFc5pyQlbFKw5w",
+      "types": [
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "formattedAddress": "Cheapside, London EC4M 9AF, United Kingdom",
+      "geometry": {
+        "location": {
+          "lat": 51.5139479,
+          "lng": -0.09537099999999997
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.51529688029149,
+            "lng": -0.09402201970849794
+          },
+          "southwest": {
+            "lat": 51.5125989197085,
+            "lng": -0.096719980291502
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "e11bc1f9db8680642701f53d0cbc61d066307bbb",
+      "name": "Searcy's Champagne Bar",
+      "openingHours": {
+        "openNow": {},
+        "weekdayText": []
+      },
+      "photos": [
+        {
+          "height": 2448,
+          "htmlAttributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115483908883380676315/photos\">Gloria Chan</a>"
+          ],
+          "photoReference": "CoQBdwAAAGqE0BplvRwtD7CLtoT2B26U5Z13oQUDWgYFG3ZCE6vOJWp18ONyUWsAfz3wRgam3xja4nQpo9U7iDGjksNg_kHBjuqbGQghmeihwutS-5WPIHkMHrLoZ1mVeGcYfcTh4myV2l0Rr39gPVDDJv1kyWs4F_ivL_25QiVMzln7BgMfEhCsPma7qmrOgEFWRy8ewz60GhS32qgdNKzMWV-ICz7rLoM8pEDflg",
+          "width": 3264
+        }
+      ],
+      "placeId": "ChIJQYIo3KoEdkgRfKYu9EWy4cA",
+      "rating": 3.9,
+      "reference": "CmRSAAAADPtJBBoUoDN7yzUXe4JmL6lhu5kkCxYvdB8zl43GjQY_HVPyg5U4KjRv9SrrLYxiB2j__QP-S_465b-CMER5uKmuZ887LsB9YguZZQhFt9WXDGhMzzdknpqNcrVlkA_gEhCnaKTtd3jpuVPGIuK44HBOGhTbVpJPykB07Fh6-e0SiEkqBsIGDQ",
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    }
+  ],
+  "status": "OK"
+}

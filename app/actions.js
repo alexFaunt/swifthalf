@@ -1,27 +1,15 @@
 import { getValues } from './utils/forms'
 import { goToValues } from './utils/url'
 import { getList } from './utils/api'
-import { differentDestinations } from './utils/helpers'
-
 
 export default {
-  submitForm: ({ inputs }, e, { setInputs, getVenues }) => {
+  submitForm: ({ inputs }, e) => {
     e.preventDefault()
-
-    const values = getValues(e.target)
-
-    getVenues(values)
-    goToValues(values)
-    setInputs(values)
+    goToValues(getValues(e.target))
   },
-  getVenues: ({ inputs }, values, { setVenues, setLoading }) => {
-    if (differentDestinations(inputs, values)) {
-      getList(values).then(setVenues).then(() => setLoading(false))
-      setLoading(true)
-    }
-  },
-  initForm: ({ inputs }, form, { getVenues }) => {
-    getVenues(getValues(form))
+  getVenues: ({ inputs }, _, { setVenues, setLoading }) => {
+    getList(inputs).then(setVenues).then(() => setLoading(false))
+    setLoading(true)
   },
   setLoading: (_, loading) => ({
     loading

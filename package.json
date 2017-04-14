@@ -12,6 +12,7 @@
     "dev": "concurrently \"npm run server\" \"npm run build:dev\""
   },
   "dependencies": {
+    "@google/maps": "^0.3.1",
     "aphrodite": "^1.2.0",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.2",
@@ -31,6 +32,7 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "hyperapp": "^0.8.1",
+    "isomorphic-fetch": "^2.2.1",
     "koa": "^2.2.0",
     "koa-route": "^3.2.0",
     "koa-static-cache": "^5.0.0",

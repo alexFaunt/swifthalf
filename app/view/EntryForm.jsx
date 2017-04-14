@@ -15,10 +15,10 @@ const styles = StyleSheet.create({
   }
 })
 
-export default ({ from, to, onSubmit, onCreate }) => (
-  <form class={css(styles.form)} onSubmit={onSubmit} onCreate={onCreate}>
-    <Input name="from" placeholder="Moorgate" value={from} />
-    <Input name="to" placeholder="Oxford Circus" value={to} />
+export default ({ origin, destination, onSubmit }) => (
+  <form class={css(styles.form)} onSubmit={onSubmit}>
+    <Input name="origin" placeholder="Moorgate" value={origin} />
+    <Input name="destination" placeholder="Oxford Circus" value={destination} />
     <Button>Go go go!</Button>
   </form>
 )

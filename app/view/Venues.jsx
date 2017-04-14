@@ -5,6 +5,10 @@ import { h } from 'hyperapp'
 //   form: {}
 // })
 
-export default (data) => (
-  <div>results: { JSON.stringify(data) }</div>
+export default ({ venues }) => (
+  <div>
+    {
+      venues.map((venue) => <p>{ venue }</p>)
+    }
+  </div>
 )

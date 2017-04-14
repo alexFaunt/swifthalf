@@ -5,6 +5,6 @@ import { h } from 'hyperapp'
 //   form: {}
 // })
 
-export default ({ from, to }) => (
-  <div>from: { from } to: { to }</div>
+export default ({ origin, destination }) => (
+  <div>Between { origin } and { destination }</div>
 )
