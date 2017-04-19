@@ -1,6 +1,11 @@
 /* eslint-disable global-require, import/newline-after-import, no-console */
 require('babel-register')
 require('babel-polyfill')
+require('module-alias').addAliases({
+  react: 'preact-compat',
+  'react-dom': 'preact-compat'
+})
+require('module-alias/register')
 
 const path = require('path')
 

@@ -10,7 +10,11 @@ const isDev = process.env.NODE_ENV === 'production'
 
 const app = new Koa()
 
-app.use(views(path.join(__dirname, '/views')))
+app.use(views(path.join(__dirname, '/views'), {
+  map: {
+    html: 'handlebars'
+  }
+}))
 
 const staticOptions = {
   buffer: !isDev,
@@ -22,6 +26,6 @@ app.use(staticCache(path.join(__dirname, '../public'), staticOptions))
 app.use(staticCache(path.join(__dirname, '../build'), staticOptions))
 
 app.use(route.get('/api/list', list))
-app.use(route.get('/', renderer))
+app.use(route.get('*', renderer))
 
 export default app

@@ -7,14 +7,18 @@ const isProduction = process.env.NODE_ENV === 'production'
 
 const commonConfig = {
   target: 'web',
-  entry: './app/index.js',
+  entry: './client/index.jsx',
   devtool: 'source-map',
   output: {
     path: path.join(__dirname, 'assets'),
     filename: 'index.js'
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
+    alias: {
+      react: 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
   },
   module: {
     rules: [
