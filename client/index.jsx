@@ -1,15 +1,14 @@
 import { h, render } from 'preact'
 import { BrowserRouter } from 'react-router-dom'
-import App from '../app'
+import App, { createStore } from '../app'
 
 const initialState = JSON.parse(decodeURIComponent(window.INITIAL_STATE))
 
 const root = document.getElementById('app')
+const store = createStore(initialState)
 
-const Root = () => (
+render((
   <BrowserRouter>
-    <App />
+    <App store={store} />
   </BrowserRouter>
-)
-
-render(<Root />, root, root.lastElementChild)
+), root, root.lastElementChild)
