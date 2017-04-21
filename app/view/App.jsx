@@ -9,7 +9,7 @@ export default ({ inputs, venues, loading }, { submitForm }) => (
     <div>Header</div>
     <EntryForm onSubmit={submitForm} {...inputs} />
     <Loader loading={loading} />
-    { venues && <Searched {...inputs} /> }
+    { venues && <p>Between { inputs.origin } and { inputs.destination }</p> }
     { venues && <Venues venues={venues} /> }
   </div>
 )
