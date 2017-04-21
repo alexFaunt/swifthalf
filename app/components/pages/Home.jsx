@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import Loader from '../atoms/Loader'
 import EntryForm from '../molecules/EntryForm'
 import VenueList from '../molecules/VenueList'
-
+import { search as searchAction } from '../../actions/search'
 
 // TODO - populate these via connect
 const Home = ({ venues, loading, search, entryTodo, todo }) => (
@@ -19,7 +19,7 @@ const Home = ({ venues, loading, search, entryTodo, todo }) => (
 const stateToProps = ({ venues, entryTodo, todo }) => ({ venues, entryTodo, todo })
 
 const actionsToProps = {
-  // search: searchAction
+  search: searchAction
 }
 
 export default connect(stateToProps, actionsToProps)(Home)
