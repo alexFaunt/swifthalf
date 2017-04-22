@@ -10,7 +10,7 @@ import fetcher from '../utils/fetcher'
 const Home = ({ origin, destination, pending, venues }) => (
   <div>
     <div>Header</div>
-    <EntryForm />
+    <EntryForm origin={origin} destination={destination} />
     <Loader loading={pending} />
     { origin && destination && <p>Between { origin } and { destination }</p> }
     { venues && <VenueList venues={venues} /> }
