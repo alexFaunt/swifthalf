@@ -1,5 +1,6 @@
 import axios from 'axios'
 
+// TODO refactor to be like nav
 export class ApiRequest {
   constructor(args) {
     Object.assign(this, args)

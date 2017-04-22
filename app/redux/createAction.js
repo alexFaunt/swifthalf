@@ -1,4 +1,4 @@
-const defaultCreator = () => ({})
+const defaultCreator = () => null
 
 export default (type, customPayload, metaCreator) => {
   const payloadCreator = customPayload || defaultCreator
@@ -9,7 +9,7 @@ export default (type, customPayload, metaCreator) => {
     return {
       type,
       payload: error ? args[0] : payloadCreator(...args),
-      meta: metaCreator ? metaCreator(...args) : {},
+      meta: metaCreator ? metaCreator(...args) : null,
       error
     }
   }

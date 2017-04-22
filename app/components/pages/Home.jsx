@@ -4,22 +4,35 @@ import Loader from '../atoms/Loader'
 import EntryForm from '../molecules/EntryForm'
 import VenueList from '../molecules/VenueList'
 import { search as searchAction } from '../../actions/search'
+import { getQuery } from '../../../utils/url'
+import fetcher from '../utils/fetcher'
 
-// TODO - populate these via connect
-const Home = ({ venues, loading, search, entryTodo, todo }) => (
+const Home = ({ origin, destination, pending, venues }) => (
   <div>
     <div>Header</div>
-    <EntryForm onSubmit={search} {...entryTodo} />
-    <Loader loading={loading} />
-    { venues && <p>Between { todo.origin } and { todo.destination }</p> }
+    <EntryForm />
+    <Loader loading={pending} />
+    { origin && destination && <p>Between { origin } and { destination }</p> }
     { venues && <VenueList venues={venues} /> }
   </div>
 )
 
-const stateToProps = ({ venues, entryTodo, todo }) => ({ venues, entryTodo, todo })
+const getSearchId = ({ origin, destination }) => `${origin}|${destination}`
 
-const actionsToProps = {
-  search: searchAction
+const getSearch = ({ location, searches }) => (
+  searches[getSearchId(getQuery(location))]
+)
+
+const fetchSearch = ({ location, searches, search }) => {
+  if (!getSearch({ location, searches })) search(getQuery(location))
 }
 
-export default connect(stateToProps, actionsToProps)(Home)
+const HomeContainer = fetcher(
+  fetchSearch,
+  (props) => <Home {...getSearch(props)} {...getQuery(props.location)} />
+)
+
+const stateToProps = ({ searches }) => ({ searches })
+const actionToProps = { search: searchAction }
+
+export default connect(stateToProps, actionToProps)(HomeContainer)

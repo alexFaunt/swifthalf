@@ -1,9 +1,11 @@
 import { createClient } from '@google/maps'
-import { toCamelCase } from '../app/utils/helpers'
+import { toCamelCase } from '../utils/object'
 
 const client = createClient({
   key: process.env.GOOGLE_KEY
 })
+
+// TODO - cache EVERYTHING
 
 export const getDirections = ({ origin, destination }) => new Promise((resolve, reject) => {
   const props = {

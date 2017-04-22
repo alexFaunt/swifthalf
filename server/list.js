@@ -6,16 +6,22 @@ import { getDirections, getPlaces } from './google'
 // do a search around that midpoint
 
 export default async (ctx) => {
+  console.log('GETTING DIRECTIONS', decode(ctx.url.split('?')[1]))
+
   // TODO validate the input and check it's not fucked up
   let directions
   try {
+    console.log('WAITING FOR DIREACTIONS')
     directions = await getDirections(decode(ctx.url.split('?')[1]))
+    console.log('GOT EM')
   }
   catch (e) {
     // TODO  500
     console.log('NO DIRECTIONS', e)
+    ctx.body = []
     return
   }
+  console.log('GOT DIRECTIONS')
 
   // TODO - multi routes later.
   const { routes: [route] } = directions
@@ -25,6 +31,7 @@ export default async (ctx) => {
       routes: [],
       venues: null
     }
+    console.log('NO ROUTE')
     return
   }
 
@@ -50,6 +57,7 @@ export default async (ctx) => {
   }
   catch (e) {
     // TODO  500
+    ctx.body = []
     console.log('NO PLACES', e)
   }
 

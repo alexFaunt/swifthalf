@@ -1,14 +1,16 @@
 import { h, render } from 'preact'
-import { BrowserRouter } from 'react-router-dom'
+import { Router } from 'react-router-dom'
+import createHistory from 'history/createBrowserHistory'
 import App, { createStore } from '../app'
 
 const initialState = JSON.parse(decodeURIComponent(window.INITIAL_STATE))
 
 const root = document.getElementById('app')
-const store = createStore(initialState)
+const history = createHistory()
+const store = createStore(initialState, history)
 
 render((
-  <BrowserRouter>
+  <Router history={history}>
     <App store={store} />
-  </BrowserRouter>
+  </Router>
 ), root, root.lastElementChild)

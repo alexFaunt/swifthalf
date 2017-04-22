@@ -1,3 +1,3 @@
-export { default as inputs } from './inputs'
+export { default as forms } from './forms'
 export { default as searches } from './searches'
 export { default as venues } from './venues'

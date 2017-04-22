@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import Home from './components/pages/Home'
 
-export { default as createStore } from './utils/create-store'
+export { default as createStore } from './redux/create-store'
 
 export default ({ store }) => (
   <Provider store={store}>

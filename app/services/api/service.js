@@ -2,6 +2,7 @@ import axios from 'axios'
 
 const TIMEOUTERROR = { message: 'Gateway Timeout', status: 504 }
 const isTimeout = ({ code }) => code === 'ECONNABORTED'
+const timeout = 100000
 
 export default ({ baseURL, headers }) => {
   const axiosInstance = axios.create({
@@ -16,6 +17,6 @@ export default ({ baseURL, headers }) => {
 
   return (request) => axiosInstance({
     ...request,
-    timeout: 5000
+    timeout
   })
 }

@@ -1,18 +1,28 @@
-import handleAction from '../utils/redux/handleAction'
+import handleAction from '../redux/handleAction'
 import { search } from '../actions/search'
 
 // Try () => ({})
-export default handleAction(search, (state, { payload, meta }) => ({
-  first() {
-    console.log('first');
-    return {}
-  },
-  next() {
-    console.log('next');
-    return {}
-  },
-  throw() {
-    console.log('throw');
-    return {}
-  }
-}), {})
+export default handleAction(search, {
+  pending: (state, { meta: { origin, destination } }) => ({
+    ...state,
+    [`${origin}|${destination}`]: {
+      pending: true,
+      venues: null
+    }
+  }),
+  success: (state, { payload, meta: { origin, destination } }) => ({
+    ...state,
+    [`${origin}|${destination}`]: {
+      pending: false,
+      venues: payload
+    }
+  }),
+  failure: (state, { payload, meta: { origin, destination } }) => ({
+    ...state,
+    [`${origin}|${destination}`]: {
+      pending: false,
+      error: true,
+      message: payload
+    }
+  })
+}, {})

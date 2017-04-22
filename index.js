@@ -46,7 +46,8 @@ if (process.env.NODE_ENV !== 'production') {
 
   // Watching file system with chokidar
   const chokidar = require('chokidar')
-  const toWatch = [path.join(__dirname, './server/'), path.join(__dirname, './app/')]
+  const folders = ['server', 'app', 'utils']
+  const toWatch = folders.map((folder) => path.join(__dirname, `./${folder}/`))
   const watcher = chokidar.watch(toWatch)
   watcher.on('ready', () => watcher.on('change', () => appDelete()))
 }
