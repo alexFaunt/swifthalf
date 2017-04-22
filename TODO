@@ -1,3 +1,8 @@
+make it work
+make it look good
+
+google analytics
+logger reporting somehwere
 caching of all requests for a day or week or until re-deploy? (what about opening times)
 dockerization
 aws set up + deploy

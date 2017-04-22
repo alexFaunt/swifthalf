@@ -19,7 +19,9 @@ const createRequest = (method, request, data = undefined, options = {}) => {
 }
 
 const createRequestObject = (method) => (url, data, options = {}) => (
-  dataMethod(method) ? createRequest(method, url, data, options) : createRequest(method, url, undefined, data)
+  dataMethod(method)
+    ? createRequest(method, url, data, options)
+    : createRequest(method, url, undefined, data)
 )
 
 const axiosMethods = Object.keys(axios.create())

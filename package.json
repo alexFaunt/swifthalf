@@ -10,7 +10,9 @@
     "webpack:prod": "NODE_ENV=production webpack",
     "webpack:dev": "webpack-dev-server",
     "webpack:analyze": "NODE_ENV=analyze webpack",
-    "dev": "concurrently \"npm run server\" \"npm run webpack:dev\""
+    "dev": "concurrently \"npm run server\" \"npm run webpack:dev\"",
+    "lint": "eslint --ext .jsx,.js --ignore-path .gitignore .",
+    "precommit": "npm run lint"
   },
   "dependencies": {
     "@google/maps": "^0.3.1",
@@ -38,6 +40,7 @@
     "extract-text-webpack-plugin": "^2.1.0",
     "handlebars": "^4.0.6",
     "history": "^4.6.1",
+    "husky": "^0.13.3",
     "isomorphic-fetch": "^2.2.1",
     "koa": "^2.2.0",
     "koa-route": "^3.2.0",

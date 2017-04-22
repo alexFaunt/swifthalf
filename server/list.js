@@ -1,4 +1,6 @@
+// TODO move this shit and organize
 import { decode } from 'querystring'
+import logger from './utils/logger'
 
 import { getDirections, getPlaces } from './google'
 // get directions between two places - (geolocate them?)
@@ -6,22 +8,22 @@ import { getDirections, getPlaces } from './google'
 // do a search around that midpoint
 
 export default async (ctx) => {
-  console.log('GETTING DIRECTIONS', decode(ctx.url.split('?')[1]))
+  logger.log('GETTING DIRECTIONS', decode(ctx.url.split('?')[1]))
 
   // TODO validate the input and check it's not fucked up
   let directions
   try {
-    console.log('WAITING FOR DIREACTIONS')
+    logger.log('WAITING FOR DIREACTIONS')
     directions = await getDirections(decode(ctx.url.split('?')[1]))
-    console.log('GOT EM')
+    logger.log('GOT EM')
   }
   catch (e) {
     // TODO  500
-    console.log('NO DIRECTIONS', e)
+    logger.log('NO DIRECTIONS', e)
     ctx.body = []
     return
   }
-  console.log('GOT DIRECTIONS')
+  logger.log('GOT DIRECTIONS')
 
   // TODO - multi routes later.
   const { routes: [route] } = directions
@@ -31,7 +33,7 @@ export default async (ctx) => {
       routes: [],
       venues: null
     }
-    console.log('NO ROUTE')
+    logger.log('NO ROUTE')
     return
   }
 
@@ -49,7 +51,7 @@ export default async (ctx) => {
   })
 
   const { endLocation } = steps[middleStepIndex - 1]
-  console.log('MIDDLE STEP', middleStepIndex - 1, 'of', steps.length)
+  logger.log('MIDDLE STEP', middleStepIndex - 1, 'of', steps.length)
 
   try {
     const places = await getPlaces(endLocation)
@@ -58,7 +60,7 @@ export default async (ctx) => {
   catch (e) {
     // TODO  500
     ctx.body = []
-    console.log('NO PLACES', e)
+    logger.log('NO PLACES', e)
   }
 
   // {

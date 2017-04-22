@@ -11,7 +11,7 @@ export default class Input extends Component {
     window.removeEventListener('popstate', this.onPopState)
   }
 
-  onPopState = (e) => {
+  onPopState = () => {
     if (!process.browser) return
     setTimeout(() => {
       const newValues = getQuery(window.location)
