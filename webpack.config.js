@@ -2,15 +2,16 @@
 const webpack = require('webpack')
 const path = require('path')
 const merge = require('webpack-merge')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
+// TODO asset caching
 const isProduction = process.env.NODE_ENV === 'production'
-
 const commonConfig = {
   target: 'web',
   entry: './client/index.jsx',
   devtool: 'source-map',
   output: {
-    path: path.join(__dirname, 'assets'),
+    path: path.join(__dirname, 'build'),
     filename: 'index.js'
   },
   resolve: {
@@ -24,14 +25,24 @@ const commonConfig = {
     rules: [
       {
         test: /\.jsx?$/,
-        loader: 'babel-loader',
+        use: 'babel-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.css$/,
+        use: ExtractTextPlugin.extract(
+          `css-loader?${isProduction ? 'minimize=true' : ''}!postcss-loader`
+        )
       }
     ]
   },
   plugins: [
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': `"${process.env.NODE_ENV}"`
+    }),
+    new ExtractTextPlugin({
+      filename: 'index.css',
+      allChunks: true
     })
   ]
 }

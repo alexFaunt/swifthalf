@@ -7,6 +7,8 @@ import { search as searchAction } from '../../actions/search'
 import { getQuery } from '../../../utils/url'
 import fetcher from '../utils/fetcher'
 
+if (process.browser) require('./Home.css')
+
 const Home = ({ origin, destination, pending, venues }) => (
   <div>
     <div>Header</div>

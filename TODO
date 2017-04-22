@@ -1,4 +1,7 @@
-css
+caching of all requests for a day or week or until re-deploy? (what about opening times)
+dockerization
+aws set up + deploy
+asset cache busting hashes
 validation
-SSR?
-NO JS?
+NO JS - just do a message
+Polyfill - samsung suck

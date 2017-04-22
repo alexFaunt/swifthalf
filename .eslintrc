@@ -8,6 +8,7 @@
     "brace-style": ["error", "stroustrup"],
     "semi": ["error", "never"],
     "no-unused-vars": ["error", { "varsIgnorePattern": "h" }],
+    "global-require": "off",
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
