@@ -1,5 +1,5 @@
 import { h, Component } from 'preact'
-import { getQuery } from '../../../utils/url'
+import { getQuery } from '../../../common/utils/url'
 
 export default class Input extends Component {
   componentDidMount() {

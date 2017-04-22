@@ -1,6 +1,6 @@
 import handleActions from '../redux/handle-actions'
 import { waitFor, clear } from '../actions/pending'
-import { omit } from '../../utils/object'
+import { omit } from '../../common/utils/object'
 
 export default handleActions({
   [waitFor]: (state, { payload: { id, promise } }) => ({

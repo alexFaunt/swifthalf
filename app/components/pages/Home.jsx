@@ -4,8 +4,8 @@ import Loader from '../atoms/Loader'
 import EntryForm from '../molecules/EntryForm'
 import VenueList from '../molecules/VenueList'
 import { search as searchAction } from '../../actions/search'
-import { getQuery } from '../../../utils/url'
-import fetcher from '../utils/fetcher'
+import { getQuery } from '../../../common/utils/url'
+import fetcher from '../wrappers/fetcher'
 
 if (process.browser) require('./Home.css')
 

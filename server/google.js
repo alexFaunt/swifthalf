@@ -1,5 +1,5 @@
 import { createClient } from '@google/maps'
-import { toCamelCase } from '../utils/object'
+import { toCamelCase } from '../common/utils/object'
 
 const client = createClient({
   key: process.env.GOOGLE_KEY
