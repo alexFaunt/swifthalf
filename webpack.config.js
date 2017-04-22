@@ -3,9 +3,10 @@ const webpack = require('webpack')
 const path = require('path')
 const merge = require('webpack-merge')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 // TODO asset caching
-const isProduction = process.env.NODE_ENV === 'production'
+const isProduction = ['production', 'analyze'].includes(process.env.NODE_ENV)
 const commonConfig = {
   target: 'web',
   entry: './client/index.jsx',
@@ -38,7 +39,7 @@ const commonConfig = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': `"${process.env.NODE_ENV}"`
+      'process.env.NODE_ENV': `"${isProduction ? 'production' : 'development'}"`
     }),
     new ExtractTextPlugin({
       filename: 'index.css',
@@ -64,4 +65,11 @@ const devConfig = {
   }
 }
 
-module.exports = merge(commonConfig, isProduction ? prodConfig : devConfig)
+const analyzeConfig = {
+  plugins: [new BundleAnalyzerPlugin()]
+}
+
+const config = [commonConfig, isProduction ? prodConfig : devConfig]
+if (process.env.NODE_ENV === 'analyze') config.push(analyzeConfig)
+
+module.exports = merge(...config)
