@@ -1,4 +1,4 @@
-import createAction from '../redux/createAction'
+import createAction from '../redux/create-action'
 
 export const push = createAction(
   'NAV_PUSH',

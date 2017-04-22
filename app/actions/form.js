@@ -1,4 +1,4 @@
-import createAction from '../redux/createAction'
+import createAction from '../redux/create-action'
 
 export const submit = createAction(
   'FORM_SUBMIT',

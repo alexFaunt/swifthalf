@@ -1,4 +1,4 @@
-import handleAction from '../redux/handleAction'
+import handleAction from '../redux/handle-action'
 import { search } from '../actions/search'
 
 // Try () => ({})

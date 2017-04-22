@@ -1,4 +1,4 @@
-import createAction from '../redux/createAction'
+import createAction from '../redux/create-action'
 import api from '../services/api'
 import { push } from './nav'
 

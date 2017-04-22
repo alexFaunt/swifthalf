@@ -11,7 +11,8 @@
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
-    "react/no-unknown-property": "off"
+    "react/no-unknown-property": "off",
+    "react/no-array-index-key": "off"
   },
   "env": {
     "browser": true,

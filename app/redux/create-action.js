@@ -1,7 +1,7 @@
-const defaultCreator = () => null
+const identity = (args) => (args)
 
 export default (type, customPayload, metaCreator) => {
-  const payloadCreator = customPayload || defaultCreator
+  const payloadCreator = customPayload || identity
 
   const actionCreator = (...args) => {
     const error = args[0] instanceof Error

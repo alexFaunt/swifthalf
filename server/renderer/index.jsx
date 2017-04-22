@@ -1,8 +1,8 @@
 import { h } from 'preact'
 import renderToString from 'preact-render-to-string'
-import { StaticRouter } from 'react-router'
-import { decode } from 'querystring'
+import { StaticRouter, matchPath } from 'react-router'
 import App, { createStore } from '../../app'
+import { values, omit } from '../../utils/object'
 
 const Root = ({ store, ...rest }) => (
   <StaticRouter {...rest}>
@@ -10,28 +10,29 @@ const Root = ({ store, ...rest }) => (
   </StaticRouter>
 )
 
-const getList = ({ origin, destination }) => {
-  return { } // TODO - this should be some kind of module that the API calls into
-}
-
-const prefetchList = (url) => {
-  const { origin, destination } = decode(url.split('?')[1])
-  return origin && destination ? getList({ origin, destination }) : null
-}
+const render = (props) => (
+  renderToString(<Root {...props} />)
+)
 
 export default async function (ctx) {
   const context = {}
   const store = createStore()
 
-  // TODO long term - route config + match + generic data prefetching
-  const data = prefetchList(ctx.url)
-  // TODO - dispatch this data into the right place in the store.
-  console.log('data', data)
+  // Fetch data through side effects - may be better to go through router,
+  // but still need props n stuff, not simple. can push everything into static on fetcher
+  // and use that?
+  render({ location: ctx.url, context, store })
 
-  const html = renderToString(<Root location={ctx.url} context={context} store={store} />)
+  // TODO use context when needed
 
-  await ctx.render('index', {
-    html,
-    state: encodeURIComponent(JSON.stringify(store.getState()))
-  })
+  // Wait for all the pending stuff
+  await Promise.all(values(store.getState().pending))
+
+  // Final html with updated state
+  const html = render({ location: ctx.url, context, store })
+
+  // omit pending actions and stringify the state
+  const state = encodeURIComponent(JSON.stringify(omit(['pending'], store.getState())))
+
+  await ctx.render('index', { html, state })
 }
