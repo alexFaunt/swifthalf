@@ -9,6 +9,7 @@
 
   & .logo {
     width: calc(var(--lineHeight) * 2rem);
+    height: calc(var(--lineHeight) * 2rem);
     margin-right: var(--spacingMedium);
   }
 }

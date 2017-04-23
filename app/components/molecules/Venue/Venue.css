@@ -1,0 +1,20 @@
+.venue {
+  display: flex;
+
+  & .content {
+    flex-grow: 1;
+  }
+
+  & .header {
+    display: flex;
+  }
+
+  & .name {
+    flex-grow: 1;
+  }
+
+  & .icon {
+    width: 2rem;
+    height: 2rem;
+  }
+}

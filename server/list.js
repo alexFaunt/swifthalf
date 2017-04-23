@@ -19,8 +19,8 @@ export default async (ctx) => {
   }
   catch (e) {
     // TODO  500
-    logger.log('NO DIRECTIONS', e)
-    ctx.body = []
+    logger.log('Error DIRECTIONS', e)
+    ctx.status = 500
     return
   }
   logger.log('GOT DIRECTIONS')
@@ -31,7 +31,7 @@ export default async (ctx) => {
   if (!route) {
     ctx.body = {
       routes: [],
-      venues: null
+      venues: []
     }
     logger.log('NO ROUTE')
     return
@@ -55,17 +55,15 @@ export default async (ctx) => {
 
   try {
     const places = await getPlaces(endLocation)
-    ctx.body = places.results.map(({ name }) => name)
+    ctx.body = {
+      routes: directions.routes,
+      venues: places.results
+    }
   }
   catch (e) {
-    // TODO  500
-    ctx.body = []
-    logger.log('NO PLACES', e)
+    // TODO
+    ctx.status = 500
+    ctx.body = {}
+    logger.log('Error PLACES', e)
   }
-
-  // {
-  //   routes,
-  //   copyrights,
-  //   venues
-  // }
 }

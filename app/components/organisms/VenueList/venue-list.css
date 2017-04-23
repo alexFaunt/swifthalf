@@ -1,0 +1,15 @@
+@import '../../styles/vars';
+
+.venue-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  &-header {
+    margin-bottom: var(--spacingMedium);
+  }
+
+  &-item {
+    margin-bottom: var(--spacingMedium);
+  }
+}

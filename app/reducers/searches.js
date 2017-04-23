@@ -1,28 +1,30 @@
 import handleAction from '../redux/handle-action'
 import { search } from '../actions/search'
+import { createId } from '../utils/search'
 
-// Try () => ({})
 export default handleAction(search, {
-  pending: (state, { meta: { origin, destination } }) => ({
+  pending: (state, { meta }) => ({
     ...state,
-    [`${origin}|${destination}`]: {
+    [createId(meta)]: {
       pending: true,
       venues: null
     }
   }),
-  success: (state, { payload, meta: { origin, destination } }) => ({
+  success: (state, { payload: { routes, venues = [] }, meta }) => ({
     ...state,
-    [`${origin}|${destination}`]: {
+    [createId(meta)]: {
       pending: false,
-      venues: payload
+      routes,
+      venues: venues.map(({ id }) => id)
     }
   }),
-  failure: (state, { payload, meta: { origin, destination } }) => ({
+  failure: (state, { payload: { status, data }, meta }) => ({
     ...state,
-    [`${origin}|${destination}`]: {
+    [createId(meta)]: {
       pending: false,
       error: true,
-      message: payload
+      status,
+      message: data
     }
   })
 }, {})

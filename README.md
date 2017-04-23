@@ -2,9 +2,19 @@
 
 ## Set up
 
-git clone
-yarn install
-yarn dev
+Pre-requisites: git, yarn, node v7+
+`git clone`
+`yarn`
+Add a .env file to the root of the repo containing
+```
+GOOGLE_KEY=
+NODE_ENV=
+```
+
+## Running
+
+`yarn dev` for development and open localhost:8080
+`yarn start` for prod build and open localhost:3000
 
 ## TODO
 
@@ -15,7 +25,9 @@ google analytics
 add tests ESPECIALLY for server
 travis CI
 logger reporting somewhere
-caching of all requests for a day or week or until re-deploy? (what about opening times)
+caching strategy - googles directions will be wrong if you cache for too long... shit.
+google caching? based on time of day?
+sort dependencies
 dockerization
 aws set up + deploy
 asset cache busting hashes
@@ -23,6 +35,7 @@ validation
 NO JS - just do a message
 Polyfill - samsung suck
 Messages extraction/translation
+less agressive css prefixing - set the versions in postcss
 
 ## Features
 
@@ -38,6 +51,7 @@ No map
 Sharing of directions
 Multiple route options
 Travel options
+departure time
 Venue types
 Map view
 More than 2 people

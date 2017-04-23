@@ -6,7 +6,7 @@ if (process.browser) require('./title.css')
 
 export default () => (
   <H1 className="title">
-    <Logo />
+    <Logo className="logo" />
     <span>Swift Half</span>
   </H1>
 )
