@@ -1,0 +1,14 @@
+@import '../../styles/vars';
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--spacingLarge);
+  padding: var(--spacingMedium) 0;
+  border: 1px solid currentColor;
+
+  & .logo {
+    width: calc(var(--lineHeight) * 2rem);
+    margin-right: var(--spacingMedium);
+  }
+}

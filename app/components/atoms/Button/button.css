@@ -1,0 +1,20 @@
+@import '../../styles/vars';
+
+.button {
+  font-size: 1em;
+  padding: var(--spacingSmall);
+  border: 0;
+  border: 1px solid currentColor; /* todo other colors */
+
+  &:active {
+    filter: saturate(120%);
+  }
+
+  &:hover {
+    filter: saturate(80%);
+  }
+
+  &-primary {
+    background: var(--colorHighlight);
+  }
+}

@@ -1,0 +1,46 @@
+@import '../../styles/vars';
+
+.default {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem; /* TODO - maybe dont do this and let the venues with be it, and just do flex center */
+  margin: 0 auto;
+
+  & .primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    min-height: 20rem;
+    width: 20rem;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  & .secondary {
+    width: 80%;
+    margin: 0 auto var(--spacingExtraLarge) auto;
+  }
+
+}
+@media (width >= 50rem) {
+  .default {
+    flex-direction: row;
+    height: 100%;
+
+    & .primary {
+      height: 100%;
+      padding: 0 var(--spacingExtraLarge);
+      /*margin: 0 var(--spacingExtraLarge);*/
+    }
+
+    & .secondary {
+      flex-grow: 1;
+      height: 100%;
+      box-sizing: border-box;
+      overflow: scroll;
+      padding: var(--spacingMedium) var(--spacingExtraLarge) var(--spacingMedium) 0;
+      margin: 0;
+    }
+  }
+}

@@ -1,22 +1,31 @@
 import { h } from 'preact'
 import { connect } from 'react-redux'
-import Loader from '../atoms/Loader'
-import EntryForm from '../molecules/EntryForm'
-import VenueList from '../molecules/VenueList'
-import { search as searchAction } from '../../actions/search'
-import { getQuery } from '../../../common/utils/url'
-import fetcher from '../wrappers/fetcher'
+import Loader from '../../atoms/Loader'
+import EntryForm from '../../molecules/EntryForm'
+import Title from '../../molecules/Title'
+import VenueList from '../../molecules/VenueList'
+import { search as searchAction } from '../../../actions/search'
+import { getQuery } from '../../../../common/utils/url'
+import fetcher from '../../wrappers/fetcher'
+import Template, { Primary, Secondary } from '../../templates/Default'
 
 if (process.browser) require('./Home.css')
 
 const Home = ({ origin, destination, pending, venues }) => (
-  <div>
-    <div>Header</div>
-    <EntryForm origin={origin} destination={destination} />
-    <Loader loading={pending} />
-    { origin && destination && <p>Between { origin } and { destination }</p> }
-    { venues && <VenueList venues={venues} /> }
-  </div>
+  <Template>
+    <Primary>
+      <Title />
+      <EntryForm origin={origin} destination={destination} />
+    </Primary>
+    {
+      origin && destination &&
+      <Secondary>
+        <Loader loading={pending} />
+        <p>Between { origin } and { destination }</p>
+        <VenueList venues={venues} />
+      </Secondary>
+    }
+  </Template>
 )
 
 const getSearchId = ({ origin, destination }) => `${origin}|${destination}`

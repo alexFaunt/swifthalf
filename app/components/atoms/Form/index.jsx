@@ -1,6 +1,8 @@
 import { h } from 'preact'
 import { connect } from 'react-redux'
-import { submit } from '../../actions/form'
+import { submit } from '../../../actions/form'
+
+if (process.browser) require('./form.css')
 
 const getValues = (form) => [...form.elements].reduce((vals, { type, name, value }) => (
   type === 'submit' ? vals : { ...vals, [name]: value }
@@ -14,7 +16,7 @@ const handler = (formSubmit, fn) => (e) => {
 }
 
 const Form = ({ children, id, formSubmit, onSubmit, className = '', ...props }) => (
-  <form id={id} className={`TODO ${className}`} onSubmit={handler(formSubmit, onSubmit)} {...props}>
+  <form id={id} className={`form ${className}`} onSubmit={handler(formSubmit, onSubmit)} {...props}>
     { children }
   </form>
 )

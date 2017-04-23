@@ -1,0 +1,23 @@
+@import './vars';
+
+* {
+  line-height: var(--lineHeight);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  min-width: 300px;
+}
+
+body {
+  font-family: sans-serif, arial, verdana;
+}
+
+.app {
+  height: 100%;
+}

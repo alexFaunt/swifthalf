@@ -22,8 +22,10 @@ let server = startApp()
 // Or server side render will be wrong.
 if (process.env.NODE_ENV !== 'production') {
   const enableDestroy = require('server-destroy')
+  const debounce = require('./common/utils/function').debounce
+
   enableDestroy(server)
-  const appDelete = () => {
+  const appDelete = debounce(() => {
     // delete everything from the require cache
     Object.keys(require.cache)
       .forEach((id) => {
@@ -42,7 +44,7 @@ if (process.env.NODE_ENV !== 'production') {
         console.error(error)
       }
     })
-  }
+  }, 300)
 
   // Watching file system with chokidar
   const chokidar = require('chokidar')

@@ -1,5 +1,7 @@
 import { h, Component } from 'preact'
-import { getQuery } from '../../../common/utils/url'
+import { getQuery } from '../../../../common/utils/url'
+
+if (process.browser) require('./Input.css')
 
 export default class Input extends Component {
   componentDidMount() {
@@ -25,6 +27,6 @@ export default class Input extends Component {
       this.ref = el
     }
 
-    return <input ref={ref} className="test" name={name} id={name} {...props} />
+    return <input ref={ref} className="input" name={name} id={name} {...props} />
   }
 }

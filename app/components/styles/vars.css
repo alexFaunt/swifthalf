@@ -1,0 +1,12 @@
+:root {
+  --lineHeight: 1.2;
+
+  /* Spacing */
+  --spacingSmall: 0.5rem;
+  --spacingMedium: 1rem;
+  --spacingLarge: 1.75rem;
+  --spacingExtraLarge: 2.5rem;
+
+  /* colours */
+  --colorHighlight: #00da84;
+}

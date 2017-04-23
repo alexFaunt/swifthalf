@@ -56,6 +56,7 @@ const prodConfig = {
 const devConfig = {
   watch: true,
   devServer: {
+    hot: false,
     stats: { colors: true, progress: true, chunks: false },
     proxy: {
       '/': {
