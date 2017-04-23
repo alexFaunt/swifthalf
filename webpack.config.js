@@ -34,6 +34,14 @@ const commonConfig = {
         use: ExtractTextPlugin.extract(
           `css-loader?${isProduction ? 'minimize=true' : ''}!postcss-loader`
         )
+      },
+      {
+        test: /\.(png|svg|jpg)$/,
+        use: 'file-loader?name=./images/[name].[ext]'
+      },
+      {
+        test: /\.ico$/,
+        use: 'file-loader?name=./[name].[ext]'
       }
     ]
   },

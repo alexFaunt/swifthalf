@@ -1,3 +1,6 @@
 import { h } from 'preact'
 
-export default () => <img className="logo" alt="" src="/public/logo.png" />
+if (process.browser) require('../../../assets/images/logo.svg')
+
+// TODO - this needs trimming and designing... lol
+export default () => <img className="logo" alt="" src="./images/logo.svg" />

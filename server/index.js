@@ -22,7 +22,6 @@ const staticOptions = {
   gzip: true
 }
 
-app.use(staticCache(path.join(__dirname, '../public'), staticOptions))
 app.use(staticCache(path.join(__dirname, '../build'), staticOptions))
 
 app.use(route.get('/api/list', list))
