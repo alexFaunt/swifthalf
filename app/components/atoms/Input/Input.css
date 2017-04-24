@@ -2,6 +2,7 @@
 
 .input {
   font-size: 1em;
+  line-height: inherit;
   padding: var(--spacingSmall);
   border: 1px solid currentColor; /* todo other colors */
 }

@@ -1,7 +1,11 @@
 :root {
-  --lineHeight: 1.2;
+  /* font sizes */
+  --fontSizeLargest: 2rem;
+  --fontSizeLarge: 1.5rem;
+  --fontSizeMedium: 1.2rem;
 
   /* Spacing */
+  --spacingExtraSmall: 0.25rem;
   --spacingSmall: 0.5rem;
   --spacingMedium: 1rem;
   --spacingLarge: 1.75rem;

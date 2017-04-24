@@ -1,7 +1,25 @@
+@import '../../styles/vars';
+
 .h1, .h2, .h3 {
   margin: 0;
 }
 
-.p {
+.h1 {
+  font-size: var(--fontSizeLargest);
+}
 
+.h2 {
+  font-size: var(--fontSizeLarge);
+}
+
+.h3 {
+  font-size: var(--fontSizeMedium);
+}
+
+.p {
+  margin: 0 0 var(--spacingSmall);
+}
+
+.font-large {
+  font-size: 2rem;
 }

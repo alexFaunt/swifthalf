@@ -10,6 +10,11 @@
   }
 
   &-item {
-    margin-bottom: var(--spacingMedium);
+    border: solid currentColor;
+    border-width: 1px 1px 0;
+
+    &:last-child {
+      border-bottom-width: 1px;
+    }
   }
 }

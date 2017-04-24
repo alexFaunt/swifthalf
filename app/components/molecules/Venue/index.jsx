@@ -3,19 +3,24 @@ import Rating from '../../atoms/Rating'
 
 if (process.browser) require('./Venue.css')
 
-export default ({ name, icon, formattedAddress, vicinity, rating }) => (
+// TODO time pretty print
+export default ({ name, icon, formattedAddress, vicinity, rating, approxTime }) => (
   <div className="venue">
-    <img src={icon} alt="" className="icon" />
-    <div class="content">
+    <div className="icon-wrapper">
+      <img src={icon} alt="" className="icon" />
+    </div>
+    <div className="content">
       <header className="header">
         <span className="name">
           { name }
         </span>
-        <Rating rating={rating} />
+        <span className="approx-time">~ { Math.round(approxTime / 60) } mins</span>
       </header>
-      <div>
-        <span>{ formattedAddress || vicinity }</span>
-      </div>
+      <Rating className="rating-wrapper" rating={rating} />
+      <span className="address">{ formattedAddress || vicinity }</span>
     </div>
   </div>
 )
+
+// TODO - break out the time into a comonent
+// ~ 3min when enough space and ~3/min centered when no space

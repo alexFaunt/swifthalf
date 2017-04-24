@@ -50,14 +50,15 @@ export default async (ctx) => {
     return cumulativeTime > midTime
   })
 
-  const { endLocation } = steps[middleStepIndex - 1]
+  const { endLocation, duration: { value: stepDuration } } = steps[middleStepIndex - 1]
   logger.log('MIDDLE STEP', middleStepIndex - 1, 'of', steps.length)
 
   try {
     const places = await getPlaces(endLocation)
     ctx.body = {
       routes: directions.routes,
-      venues: places.results
+      // TODO - time to the step exit + estimate time based on distance of venue search
+      venues: places.results.map((venue) => ({ ...venue, approxTime: stepDuration / 2 }))
     }
   }
   catch (e) {

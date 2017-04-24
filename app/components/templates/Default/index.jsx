@@ -3,12 +3,12 @@ import { h } from 'preact'
 if (process.browser) require('./default.css')
 
 export default ({ children, className = '' }) => (
-  <section className={`default ${className}`}>
+  <main className={`default ${className}`}>
     { children }
-  </section>
+  </main>
 )
 
-export const Primary = ({ children }) => <div className="primary">{ children }</div>
+export const Primary = ({ children }) => <section className="primary">{ children }</section>
 export const Secondary = ({ children }) => (
   <div className="secondary">
     <section className="secondary-content">

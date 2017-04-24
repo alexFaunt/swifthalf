@@ -1,0 +1,33 @@
+.rating {
+  overflow: hidden;
+  white-space: nowrap;
+
+  /* beware - changing this means changing a calculation in the jsx too. */
+  & .star {
+    display: inline-block;
+    margin-right: 0.2rem;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    color: red;
+
+    &::before {
+      content: '★';
+      position: absolute;
+      display: block;
+      font-size: 1.2rem;
+      line-height: 1;
+      color: red;
+      left: -0.08rem;
+      top: -0.05rem;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  & .stars {
+    position: relative;
+  }
+}

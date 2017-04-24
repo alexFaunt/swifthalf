@@ -1,13 +1,10 @@
 @import './vars';
 
-* {
-  line-height: var(--lineHeight);
-}
-
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  overflow: hidden;
 }
 
 html {
@@ -16,8 +13,11 @@ html {
 
 body {
   font-family: sans-serif, arial, verdana;
+  line-height: 1.2;
+  font-size: 16px;
 }
 
 .app {
   height: 100%;
+  overflow: auto;
 }
