@@ -4,7 +4,7 @@ import path from 'path'
 import staticCache from 'koa-static-cache'
 import views from 'koa-views'
 import renderer from './renderer'
-import list from './list'
+import api from './api'
 
 const isDev = process.env.NODE_ENV === 'production'
 
@@ -23,8 +23,21 @@ const staticOptions = {
 }
 
 app.use(staticCache(path.join(__dirname, '../build'), staticOptions))
+//
+// const forEach = (obj, fn) => (
+//   Object.keys(obj).forEach((key) => {
+//     fn(key, obj[key])
+//   })
+// )
+// forEach(api, (url, handler) => {
+//   app.use(route.get(`/api/${url}`, handler))
+// })
 
-app.use(route.get('/api/list', list))
+api.forEach((apiRoute) => {
+  app.use(apiRoute)
+})
+
+// app.use(route.get('/api/*', api))
 app.use(route.get('*', renderer))
 
 export default app

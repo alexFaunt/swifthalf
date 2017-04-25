@@ -1,8 +1,8 @@
 // TODO move this shit and organize
 import { decode } from 'querystring'
-import logger from './utils/logger'
+import logger from '../utils/logger'
+import { directions as getDirections, places as getPlaces } from '../modules/google'
 
-import { getDirections, getPlaces } from './google'
 // get directions between two places - (geolocate them?)
 // Find the midpoint
 // do a search around that midpoint
