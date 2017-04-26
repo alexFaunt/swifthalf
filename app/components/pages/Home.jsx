@@ -33,7 +33,6 @@ const getSearch = ({ location, searches }) => (
 
 const fetchSearch = ({ location, searches, search }) => {
   const query = getQuery(location.search)
-  console.log('DO A THING? ', query, isValidDirectionsQuery(query))
   if (!getSearch({ location, searches }) && isValidDirectionsQuery(query)) search(query)
 }
 
