@@ -3,7 +3,6 @@
 .default {
   display: flex;
   flex-direction: column;
-  max-width: 60rem; /* TODO - maybe dont do this and let the venues with be it, and just do flex center */
   margin: 0 auto;
 
   & .primary {
@@ -27,6 +26,7 @@
   .default {
     flex-direction: row;
     height: 100%;
+    margin: 0;
 
     & .primary {
       height: 100%;
@@ -44,6 +44,26 @@
     & .secondary-content {
       overflow: scroll;
       padding: var(--spacingMedium) var(--spacingExtraLarge) var(--spacingMedium) 0;
+    }
+  }
+}
+
+@media (width >= 67.5rem) {
+  .default {
+    justify-content: space-around;
+    padding: 0 5%;
+
+    & .primary {
+      padding: 0;
+      margin: 0;
+    }
+
+    & .secondary {
+      max-width: 35rem;
+    }
+
+    & .secondary-content {
+      padding: var(--spacingMedium) 0;
     }
   }
 }

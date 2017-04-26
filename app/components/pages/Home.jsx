@@ -6,7 +6,7 @@ import Title from '../molecules/Title'
 import VenueList from '../organisms/VenueList'
 import { search as searchAction } from '../../actions/search'
 import { getQuery } from '../../../common/utils/url'
-import fetcher from '../wrappers/fetcher'
+import { client as fetcher } from '../wrappers/fetcher'
 import Template, { Primary, Secondary } from '../templates/Default'
 import { createId as createSearchId } from '../../utils/search'
 
