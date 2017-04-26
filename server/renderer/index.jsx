@@ -21,15 +21,19 @@ export default async function (ctx) {
   // Fetch data through side effects - may be better to go through router,
   // but still need props n stuff, not simple. can push everything into static on fetcher
   // and use that?
-  render({ location: ctx.url, context, store })
+  let html = render({ location: ctx.url, context, store })
 
-  // TODO use context when needed
+  // TODO use context when needed to redirect etc
 
-  // Wait for all the pending stuff
-  await Promise.all(values(store.getState().pending))
+  const pending = values(store.getState().pending)
 
-  // Final html with updated state
-  const html = render({ location: ctx.url, context, store })
+  if (pending.length) {
+    // Wait for all the pending stuff
+    await Promise.all(values(store.getState().pending))
+
+    // Final html with updated state
+    html = render({ location: ctx.url, context, store })
+  }
 
   // omit pending actions and stringify the state
   const state = encodeURIComponent(JSON.stringify(omit(['pending'], store.getState())))

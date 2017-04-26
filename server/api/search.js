@@ -1,20 +1,19 @@
-// TODO move this shit and organize
-import { decode } from 'querystring'
+import { getQuery } from '../../common/utils/url'
 import logger from '../utils/logger'
 import { directions as getDirections, places as getPlaces } from '../modules/google'
-
-// get directions between two places - (geolocate them?)
-// Find the midpoint
-// do a search around that midpoint
+import { isValidDirectionsQuery } from '../../common/validation'
 
 export default async (ctx) => {
-  logger.log('GETTING DIRECTIONS', decode(ctx.url.split('?')[1]))
+  const query = getQuery(ctx.url)
+  if (!isValidDirectionsQuery(query)) {
+    ctx.status = 400
+    return
+  }
 
-  // TODO validate the input and check it's not fucked up
   let directions
   try {
     logger.log('WAITING FOR DIREACTIONS')
-    directions = await getDirections(decode(ctx.url.split('?')[1]))
+    directions = await getDirections(getQuery(ctx.url))
     logger.log('GOT EM')
   }
   catch (e) {

@@ -10,3 +10,5 @@ export function debounce(func, wait) {
     timeout = setTimeout(later, wait)
   }
 }
+
+export const compose = (...fns) => fns.reduce((f, g) => (...args) => f(g(...args)))

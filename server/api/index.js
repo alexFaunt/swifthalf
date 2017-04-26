@@ -1,6 +1,6 @@
 import route from 'koa-route'
-import list from './list'
+import search from './search'
 
 export default [
-  route.get('/api/list/', list)
+  route.get('/api/search/', search)
 ]

@@ -16,7 +16,7 @@ export default class Input extends Component {
   onPopState = () => {
     if (!process.browser) return
     setTimeout(() => {
-      const newValues = getQuery(window.location)
+      const newValues = getQuery(window.location.search)
       const value = newValues[this.props.name]
       if (value) this.ref.value = value
     }, 10)

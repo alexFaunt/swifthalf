@@ -4,7 +4,7 @@ import { push } from './nav'
 
 export const search = createAction(
   'SEARCH_VENUES',
-  (params) => api.get('list', { params }),
+  (params) => api.get('search', { params }),
   (params) => params
 )
 

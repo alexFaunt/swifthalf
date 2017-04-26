@@ -1,0 +1,9 @@
+.circle {
+  border-radius: 50%;
+
+  &::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }
+}

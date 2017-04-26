@@ -1,0 +1,76 @@
+:root {
+  --dotSize: 5%;
+  --scale: 15;
+}
+
+.loader {
+  position: relative;
+  border: 1px solid;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    display: block;
+    padding-bottom: 50%; /* aspect ratio */
+  }
+
+  &-dot {
+    position: absolute;
+    width: var(--dotSize);
+    background: currentColor;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &-left {
+    left: 20%;
+
+    & .loader-pulse:last-child {
+      animation-delay: 2s;
+    }
+  }
+
+  &-right {
+    right: 20%;
+
+    & .loader-pulse {
+      animation-delay: 1s;
+
+      &:last-child {
+        animation-delay: 3s;
+      }
+    }
+  }
+
+  &-pulse {
+    z-index: -1;
+    width: calc(var(--scale) * 100%);
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) scale(calc(1/var(--scale)));
+    animation-name: fade, scale;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease, ease-out;
+    transform-origin: center center;
+    overflow: hidden;
+    border: 1px solid grey;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: translate3d(-50%, -50%, 0) scale(0.1);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) scale(1);
+  }
+}
