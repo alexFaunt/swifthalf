@@ -6,7 +6,7 @@ import Title from '../molecules/Title'
 import VenueList from '../organisms/VenueList'
 import { search as searchAction } from '../../actions/search'
 import { getQuery } from '../../../common/utils/url'
-import { isValidDirectionsQuery } from '../../../common/validation'
+import { validateDirectionsQuery } from '../../../common/validation'
 import { client as fetcher } from '../wrappers/fetcher'
 import Template, { Primary, Secondary } from '../templates/Default'
 import { createId as createSearchId } from '../../utils/search'
@@ -33,7 +33,7 @@ const getSearch = ({ location, searches }) => (
 
 const fetchSearch = ({ location, searches, search }) => {
   const query = getQuery(location.search)
-  if (!getSearch({ location, searches }) && isValidDirectionsQuery(query)) search(query)
+  if (!getSearch({ location, searches }) && !validateDirectionsQuery(query)) search(query)
 }
 
 const HomeContainer = fetcher(

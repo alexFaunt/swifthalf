@@ -1,6 +1,6 @@
-import request from './request'
+import google from './google'
 
-const directions = request('placesNearby')
+const directions = google('placesNearby')
 
 export default (location) => (
   directions({

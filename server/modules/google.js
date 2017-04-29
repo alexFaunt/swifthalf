@@ -1,5 +1,5 @@
 import { createClient } from '@google/maps'
-import { toCamelCase } from '../../../common/utils/object'
+import { toCamelCase } from '../../common/utils/object'
 
 if (!process.env.GOOGLE_KEY) {
   throw new Error('No GOOGLE_KEY supplied - check the .env file')

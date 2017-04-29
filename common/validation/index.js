@@ -1,10 +1,16 @@
-const isString = (val) => typeof val === 'string'
-const longerThan = (length) => (val) => val && val.length > length
+import validator from './validator'
 
-const all = (...validators) => (val) => !validators.find((isValid) => !isValid(val))
+const searchTerm = {
+  presence: true,
+  length: {
+    minimum: 3,
+    message: 'must be at least 3 characters'
+  }
+}
 
-const isValidSearchString = all(isString, longerThan(3))
+const directionsQuery = {
+  origin: searchTerm,
+  destination: searchTerm
+}
 
-export const isValidDirectionsQuery = ({ origin, destination }) => (
-  isValidSearchString(origin) && isValidSearchString(destination)
-)
+export const validateDirectionsQuery = validator(directionsQuery)
