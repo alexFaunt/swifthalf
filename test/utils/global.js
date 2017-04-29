@@ -1,4 +1,4 @@
-import { JSDOM as JsDom } from 'jsdom'
+import { jsdom } from 'jsdom'
 
 const setGlobalWindow = (win) => {
   global.window = win
@@ -7,28 +7,23 @@ const setGlobalWindow = (win) => {
 
 const setGlobalDocument = (doc) => {
   global.document = doc
+  setGlobalWindow(doc.defaultView)
 }
 
 export const setMarkup = (markup) => {
-  setGlobalDocument(new JsDom(markup))
+  setGlobalDocument(jsdom(markup))
 }
 
-const rewireDocument = ({ document, window }) => {
+const rewireDocument = (doc) => {
   let oldDocument
-  let oldWindow
   beforeEach(() => {
     oldDocument = global.document
-    oldWindow = global.window
-    setGlobalDocument(document)
-    setGlobalWindow(window)
+    setGlobalDocument(doc)
   })
-  afterEach(() => {
-    setGlobalDocument(oldDocument)
-    setGlobalWindow(oldWindow)
-  })
+  afterEach(() => setGlobalDocument(oldDocument))
 }
 
-export const rewireMarkup = (markup) => rewireDocument(new JsDom(markup))
+export const rewireMarkup = (markup) => rewireDocument(jsdom(markup))
 
 export const rewireWindow = (win) => {
   let oldWindow
