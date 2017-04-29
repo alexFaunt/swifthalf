@@ -20,3 +20,8 @@ export const omit = (keys, object) => Object.keys(object).reduce((result, key) =
 export const pick = (items = [], target = {}) => items.reduce((picked, key) => (
   target[key] ? { ...picked, [key]: target[key] } : picked
 ), {})
+
+export const invert = (obj) => Object.keys(obj).reduce((inverted, key) => ({
+  ...inverted,
+  [obj[key]]: key }
+), {})

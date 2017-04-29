@@ -20,7 +20,7 @@ export default async (ctx) => {
 
   try {
     const directions = await getDirections(query)
-    console.log('DIRECTIONS')
+
     locations = directions.geocodedWaypoints
     routes = directions.routes
 
@@ -32,7 +32,6 @@ export default async (ctx) => {
     venues = await getVenues(midpoint)
   }
   catch (e) {
-    console.log('ERROR', JSON.stringify(e))
     error = e
   }
 
