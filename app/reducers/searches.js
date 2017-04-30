@@ -10,12 +10,12 @@ export default handleAction(search, {
       venues: null
     }
   }),
-  success: (state, { payload: { routes, venues = [] }, meta }) => ({
+  success: (state, { payload: { venues = [], ...data }, meta }) => ({
     ...state,
     [createId(meta)]: {
       pending: false,
-      routes,
-      venues: venues.map(({ id }) => id)
+      venues: venues.map(({ id }) => id),
+      ...data
     }
   }),
   failure: (state, { payload: { status, data }, meta }) => ({

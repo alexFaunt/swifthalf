@@ -9,6 +9,7 @@ if (process.browser) {
 }
 
 export { default as createStore } from './redux/create-store'
+export { setConfig } from './actions/config'
 
 export default ({ store }) => (
   <Provider store={store}>

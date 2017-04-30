@@ -1,3 +1,4 @@
+export { default as config } from './config'
 export { default as forms } from './forms'
 export { default as pending } from './pending'
 export { default as searches } from './searches'
