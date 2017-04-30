@@ -1,7 +1,7 @@
 import { h } from 'preact'
 import renderToString from 'preact-render-to-string'
 import { StaticRouter, matchPath } from 'react-router'
-import App, { createStore } from '../../app'
+import App, { createStore, setConfig } from '../../app'
 import { values, omit } from '../../common/utils/object'
 
 const Root = ({ store, ...rest }) => (
@@ -17,6 +17,12 @@ const render = (props) => (
 export default async function (ctx) {
   const context = {}
   const store = createStore()
+  store.dispatch(setConfig({
+    google: {
+      API_KEY: process.env.GOOGLE_KEY,
+      language: 'en'
+    }
+  }))
 
   // Fetch data through side effects - may be better to go through router,
   // but still need props n stuff, not simple. can push everything into static on fetcher

@@ -10,8 +10,9 @@ import { validateDirectionsQuery } from '../../../common/validation'
 import { client as fetcher } from '../wrappers/fetcher'
 import Template, { Primary, Secondary } from '../templates/Default'
 import { createId as createSearchId } from '../../utils/search'
+import GoogleMap from '../molecules/GoogleMap'
 
-const Home = ({ origin, destination, pending, venues }) => (
+const Home = ({ origin, destination, pending, venues, midpoint }) => (
   <Template>
     <Primary>
       <Title />
@@ -21,6 +22,7 @@ const Home = ({ origin, destination, pending, venues }) => (
       origin && destination &&
       <Secondary>
         <Loader loading={pending} />
+        <GoogleMap center={midpoint} />
         <VenueList origin={origin} destination={destination} venueIds={venues} />
       </Secondary>
     }
