@@ -1,6 +1,7 @@
 import { h } from 'preact'
 import { Switch, Route } from 'react-router-dom'
 import { Provider } from 'react-redux'
+import ScreenView from './components/functional/ScreenView'
 import Home from './components/pages/Home'
 
 if (process.browser) {
@@ -13,6 +14,11 @@ export { setConfig } from './actions/config'
 
 export default ({ store }) => (
   <Provider store={store}>
-    <Route exact path="/" component={Home} />
+    <div>
+      <ScreenView />
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+    </div>
   </Provider>
 )
