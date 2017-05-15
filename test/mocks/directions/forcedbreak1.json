@@ -1,0 +1,408 @@
+{
+  "geocodedWaypoints": [
+    {
+      "geocoderStatus": "OK",
+      "placeId": "ChIJQeH64coadkgRsPTaplFQ1CM",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "geocoderStatus": "OK",
+      "placeId": "ChIJu8wKS7IcdkgRHZScIsrv-yw",
+      "types": [
+        "establishment",
+        "library",
+        "point_of_interest"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 51.5187298,
+          "lng": -0.0794338
+        },
+        "southwest": {
+          "lat": 51.5128993,
+          "lng": -0.1615627
+        }
+      },
+      "copyrights": "Map data ©2017 Google",
+      "legs": [
+        {
+          "arrivalTime": {
+            "text": "1:33pm",
+            "timeZone": "Europe/London",
+            "value": 1494851633
+          },
+          "departureTime": {
+            "text": "1:08pm",
+            "timeZone": "Europe/London",
+            "value": 1494850107
+          },
+          "distance": {
+            "text": "6.6 km",
+            "value": 6589
+          },
+          "duration": {
+            "text": "25 mins",
+            "value": 1526
+          },
+          "endAddress": "230 Bishopsgate, London EC2M 4QH, UK",
+          "endLocation": {
+            "lat": 51.5187298,
+            "lng": -0.0794338
+          },
+          "startAddress": "120 George St, Marylebone, London W1H 7HL, UK",
+          "startLocation": {
+            "lat": 51.5164071,
+            "lng": -0.1615627
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.6 km",
+                "value": 560
+              },
+              "duration": {
+                "text": "8 mins",
+                "value": 452
+              },
+              "endLocation": {
+                "lat": 51.5128993,
+                "lng": -0.1584353
+              },
+              "htmlInstructions": "Walk to Marble Arch Station",
+              "polyline": {
+                "points": "qxlyHvp^AKASWaCK{@TI`C{@l@SJEJCn@UXKj@UHCDABAr@Wv@[NG`Bq@`A]A]KUCKCMAS?CA?vBB"
+              },
+              "startLocation": {
+                "lat": 51.5164071,
+                "lng": -0.1615627
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "80 m",
+                    "value": 80
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 58
+                  },
+                  "endLocation": {
+                    "lat": 51.5166062,
+                    "lng": -0.1604534
+                  },
+                  "htmlInstructions": "Head <b>east</b> on <b>George St</b> toward <b>Bryanston Mews W</b>",
+                  "polyline": {
+                    "points": "qxlyHvp^AKASWaCK{@"
+                  },
+                  "startLocation": {
+                    "lat": 51.5164071,
+                    "lng": -0.1615627
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.4 km",
+                    "value": 375
+                  },
+                  "duration": {
+                    "text": "5 mins",
+                    "value": 292
+                  },
+                  "endLocation": {
+                    "lat": 51.5133708,
+                    "lng": -0.1589314
+                  },
+                  "htmlInstructions": "Turn <b>right</b> onto <b>Great Cumberland Pl</b>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "yylyHxi^TI`C{@l@SJEJCn@UXKj@UHCDABAr@Wv@[NG`Bq@`A]"
+                  },
+                  "startLocation": {
+                    "lat": 51.5166062,
+                    "lng": -0.1604534
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "10 m",
+                    "value": 10
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 10
+                  },
+                  "endLocation": {
+                    "lat": 51.5133774,
+                    "lng": -0.1587825
+                  },
+                  "htmlInstructions": "Turn <b>left</b> onto <b>Marble Arch</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "qelyHh`^A]"
+                  },
+                  "startLocation": {
+                    "lat": 51.5133708,
+                    "lng": -0.1589314
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "29 m",
+                    "value": 29
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 33
+                  },
+                  "endLocation": {
+                    "lat": 51.513496,
+                    "lng": -0.158421
+                  },
+                  "htmlInstructions": "Slight <b>left</b> onto <b>Oxford St</b>",
+                  "maneuver": "turn-slight-left",
+                  "polyline": {
+                    "points": "selyHj_^KUCKCMAS?CA?"
+                  },
+                  "startLocation": {
+                    "lat": 51.5133774,
+                    "lng": -0.1587825
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "66 m",
+                    "value": 66
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 59
+                  },
+                  "endLocation": {
+                    "lat": 51.5128993,
+                    "lng": -0.1584353
+                  },
+                  "polyline": {
+                    "points": "kflyHb}]vBB"
+                  },
+                  "startLocation": {
+                    "lat": 51.513496,
+                    "lng": -0.158421
+                  },
+                  "travelMode": "WALKING"
+                }
+              ],
+              "travelMode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "5.7 km",
+                "value": 5696
+              },
+              "duration": {
+                "text": "12 mins",
+                "value": 720
+              },
+              "endLocation": {
+                "lat": 51.5174147,
+                "lng": -0.08296669999999999
+              },
+              "htmlInstructions": "Subway towards Newbury Park",
+              "polyline": {
+                "points": "sblyHf}]mBZwCsl@a@aIH?}@uPaCs_@E{@IBcEm|@McCqF_~@C[AYUiELAmBub@CkBAyBHoCFeAHoBtAmS^kF~@{FrAaHH]H]RaAhIob@@Ah@yARg@Rs@X{Ap@_HtCa[LkCBw@I{@AGSaAm@cCi@yC_@eCYcAi@o@cAmAWm@Wy@[_Am@w@}@u@kCqB{B}@aAe@OM?@"
+              },
+              "startLocation": {
+                "lat": 51.5128993,
+                "lng": -0.1584353
+              },
+              "transitDetails": {
+                "arrivalStop": {
+                  "location": {
+                    "lat": 51.5174147,
+                    "lng": -0.08296669999999999
+                  },
+                  "name": "Liverpool Street Underground Station"
+                },
+                "arrivalTime": {
+                  "text": "1:29pm",
+                  "timeZone": "Europe/London",
+                  "value": 1494851394
+                },
+                "departureStop": {
+                  "location": {
+                    "lat": 51.5128993,
+                    "lng": -0.1584353
+                  },
+                  "name": "Marble Arch Station"
+                },
+                "departureTime": {
+                  "text": "1:16pm",
+                  "timeZone": "Europe/London",
+                  "value": 1494850560
+                },
+                "headsign": "Newbury Park",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Transport for London",
+                      "url": "https://tfl.gov.uk/modes/tube/"
+                    }
+                  ],
+                  "color": "#d50000",
+                  "shortName": "Central",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIcon": "//maps.gstatic.com/mapfiles/transit/iw2/6/uk-london-metro.png",
+                    "name": "Subway",
+                    "type": "SUBWAY"
+                  }
+                },
+                "numStops": 8
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 333
+              },
+              "duration": {
+                "text": "4 mins",
+                "value": 238
+              },
+              "endLocation": {
+                "lat": 51.5187298,
+                "lng": -0.0794338
+              },
+              "htmlInstructions": "Walk to 230 Bishopsgate, London EC2M 4QH, UK",
+              "polyline": {
+                "points": "y~lyHpeOmA}GCuAAE?A?C?CF_@Ju@@AFBLFB@Ne@IIMKIIi@k@YYSQUa@UIQK{@_@"
+              },
+              "startLocation": {
+                "lat": 51.5174147,
+                "lng": -0.08296669999999999
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 107
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 51
+                  },
+                  "endLocation": {
+                    "lat": 51.517803,
+                    "lng": -0.081537
+                  },
+                  "polyline": {
+                    "points": "y~lyHpeOmA}G"
+                  },
+                  "startLocation": {
+                    "lat": 51.5174147,
+                    "lng": -0.08296669999999999
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "55 m",
+                    "value": 55
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 38
+                  },
+                  "endLocation": {
+                    "lat": 51.5175858,
+                    "lng": -0.080662
+                  },
+                  "htmlInstructions": "Head <b>east</b>",
+                  "polyline": {
+                    "points": "gamyHr|NCuAAE?A?C?CF_@Ju@@AFBLFB@"
+                  },
+                  "startLocation": {
+                    "lat": 51.517803,
+                    "lng": -0.081537
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "16 m",
+                    "value": 16
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 10
+                  },
+                  "endLocation": {
+                    "lat": 51.5175124,
+                    "lng": -0.0804666
+                  },
+                  "htmlInstructions": "Turn <b>left</b> toward <b>Bishopsgate</b>/<b>A10</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "}_myHbwNNe@"
+                  },
+                  "startLocation": {
+                    "lat": 51.5175858,
+                    "lng": -0.080662
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 155
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 139
+                  },
+                  "endLocation": {
+                    "lat": 51.5187298,
+                    "lng": -0.0794338
+                  },
+                  "htmlInstructions": "Turn <b>left</b> onto <b>Bishopsgate</b>/<b>A10</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "m_myH|uNIIMKIIi@k@YYSQUa@UIQK{@_@"
+                  },
+                  "startLocation": {
+                    "lat": 51.5175124,
+                    "lng": -0.0804666
+                  },
+                  "travelMode": "WALKING"
+                }
+              ],
+              "travelMode": "WALKING"
+            }
+          ],
+          "trafficSpeedEntry": [],
+          "viaWaypoint": []
+        }
+      ],
+      "overviewPolyline": {
+        "points": "qxlyHvp^g@}EpE_BhE{AjFsBA]KUGYAWtBBmBZwCsl@a@aIH?}@uPaCs_@E{@IBqEq`AuF{~@WcFLAmBub@EeFPuE~A}V^kF~@{F|A_I\\_BjIqb@|@aCl@oCfEad@PcEKcAaAeEiA_HYcAi@o@cAmAWm@s@yBm@w@}@u@kCqB{B}@qAs@mA{GE{AFi@Ju@H@PHNe@IIWUcAeASQUa@g@U{@_@"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypointOrder": []
+    }
+  ],
+  "status": "OK"
+}
