@@ -12,5 +12,5 @@ export const getMidpoint = (route) => {
     return cumulativeTime > midTime
   })
 
-  return steps[middleStepIndex - 1].endLocation
+  return steps[Math.max(middleStepIndex - 1, 0)].endLocation
 }

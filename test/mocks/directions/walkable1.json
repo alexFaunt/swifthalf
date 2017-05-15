@@ -1,0 +1,318 @@
+{
+  "geocodedWaypoints": [
+    {
+      "geocoderStatus": "OK",
+      "placeId": "ChIJ1y3irE0bdkgRz_z6huH325o",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "geocoderStatus": "OK",
+      "placeId": "ChIJIcvmuq0EdkgR1FsDFILLMmk",
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "subway_station",
+        "transit_station"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 51.5185501,
+          "lng": -0.1037563
+        },
+        "southwest": {
+          "lat": 51.5114507,
+          "lng": -0.1106998
+        }
+      },
+      "copyrights": "Map data ©2017 Google",
+      "legs": [
+        {
+          "arrivalTime": {
+            "text": "1:13pm",
+            "timeZone": "Europe/London",
+            "value": 1494850411
+          },
+          "departureTime": {
+            "text": "1:00pm",
+            "timeZone": "Europe/London",
+            "value": 1494849654
+          },
+          "distance": {
+            "text": "1.2 km",
+            "value": 1220
+          },
+          "duration": {
+            "text": "13 mins",
+            "value": 757
+          },
+          "endAddress": "Blackfriars, London EC4V 4DY, UK",
+          "endLocation": {
+            "lat": 51.5114507,
+            "lng": -0.1037563
+          },
+          "startAddress": "120 Holborn, London EC1N 2TD, UK",
+          "startLocation": {
+            "lat": 51.51815329999999,
+            "lng": -0.1106998
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.5 km",
+                "value": 451
+              },
+              "duration": {
+                "text": "5 mins",
+                "value": 314
+              },
+              "endLocation": {
+                "lat": 51.518089,
+                "lng": -0.105106
+              },
+              "htmlInstructions": "Walk to Snow Hill (Stop HT)",
+              "polyline": {
+                "points": "mcmyHzrT@ODy@TkDD{@Di@Dw@PsC@O@u@Um@GMQ}@I_@g@cCKg@UcAQ}@dAIVEAW"
+              },
+              "startLocation": {
+                "lat": 51.51815329999999,
+                "lng": -0.1106998
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 219
+                  },
+                  "duration": {
+                    "text": "3 mins",
+                    "value": 150
+                  },
+                  "endLocation": {
+                    "lat": 51.5177959,
+                    "lng": -0.1075894
+                  },
+                  "htmlInstructions": "Head <b>east</b> on <b>Holborn</b>/<b>A40</b> toward <b>Brooke St</b><div style=\"font-size:0.9em\">Continue to follow A40</div>",
+                  "polyline": {
+                    "points": "mcmyHzrT@ODy@TkDD{@Di@Dw@PsC@O@u@"
+                  },
+                  "startLocation": {
+                    "lat": 51.51815329999999,
+                    "lng": -0.1106998
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 179
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 126
+                  },
+                  "endLocation": {
+                    "lat": 51.5185501,
+                    "lng": -0.1053123
+                  },
+                  "htmlInstructions": "Turn <b>left</b> onto <b>Charterhouse St</b>/<b>B500</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "gamyHl_TUm@GMQ}@I_@g@cCKg@UcAQ}@"
+                  },
+                  "startLocation": {
+                    "lat": 51.5177959,
+                    "lng": -0.1075894
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "53 m",
+                    "value": 53
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 38
+                  },
+                  "endLocation": {
+                    "lat": 51.518089,
+                    "lng": -0.105106
+                  },
+                  "htmlInstructions": "Turn <b>right</b> onto <b>Farringdon St</b>/<b>A201</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "}emyHdqSdAIVEAW"
+                  },
+                  "startLocation": {
+                    "lat": 51.5185501,
+                    "lng": -0.1053123
+                  },
+                  "travelMode": "WALKING"
+                }
+              ],
+              "travelMode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "0.6 km",
+                "value": 603
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 121
+              },
+              "endLocation": {
+                "lat": 51.5126961,
+                "lng": -0.1041169
+              },
+              "htmlInstructions": "Bus towards Honor Oak",
+              "polyline": {
+                "points": "acmyH|oSzRoCxLu@"
+              },
+              "startLocation": {
+                "lat": 51.518089,
+                "lng": -0.105106
+              },
+              "transitDetails": {
+                "arrivalStop": {
+                  "location": {
+                    "lat": 51.5126961,
+                    "lng": -0.1041169
+                  },
+                  "name": "Apothecary Street (Stop K)"
+                },
+                "arrivalTime": {
+                  "text": "1:11pm",
+                  "timeZone": "Europe/London",
+                  "value": 1494850269
+                },
+                "departureStop": {
+                  "location": {
+                    "lat": 51.518089,
+                    "lng": -0.105106
+                  },
+                  "name": "Snow Hill (Stop HT)"
+                },
+                "departureTime": {
+                  "text": "1:06pm",
+                  "timeZone": "Europe/London",
+                  "value": 1494849983
+                },
+                "headsign": "Honor Oak",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Transport for London",
+                      "url": "https://tfl.gov.uk/"
+                    }
+                  ],
+                  "color": "#d32f2f",
+                  "name": "St Pancras - Honor Oak",
+                  "shortName": "63",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                    "localIcon": "//maps.gstatic.com/mapfiles/transit/iw2/6/uk-london-bus.png",
+                    "name": "Bus",
+                    "type": "BUS"
+                  }
+                },
+                "numStops": 2
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 166
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 137
+              },
+              "endLocation": {
+                "lat": 51.5114507,
+                "lng": -0.1037563
+              },
+              "htmlInstructions": "Walk to Blackfriars, London EC4V 4DY, UK",
+              "polyline": {
+                "points": "kalyHviSBTP?LKx@GNAFAPAVCR?LDr@JBqA"
+              },
+              "startLocation": {
+                "lat": 51.5126961,
+                "lng": -0.1041169
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 137
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 114
+                  },
+                  "endLocation": {
+                    "lat": 51.5114652,
+                    "lng": -0.1041721
+                  },
+                  "htmlInstructions": "Head <b>south</b> on <b>New Bridge St</b>/<b>A201</b> toward <b>Tudor St</b><div style=\"font-size:0.9em\">Continue to follow A201</div>",
+                  "polyline": {
+                    "points": "kalyHviSBTP?LKx@GNAFAPAVCR?LDr@J"
+                  },
+                  "startLocation": {
+                    "lat": 51.5126961,
+                    "lng": -0.1041169
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "29 m",
+                    "value": 29
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 23
+                  },
+                  "endLocation": {
+                    "lat": 51.5114507,
+                    "lng": -0.1037563
+                  },
+                  "htmlInstructions": "Turn <b>left</b> onto <b>Blackfriars Passage</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "uykyH`jSBqA"
+                  },
+                  "startLocation": {
+                    "lat": 51.5114652,
+                    "lng": -0.1041721
+                  },
+                  "travelMode": "WALKING"
+                }
+              ],
+              "travelMode": "WALKING"
+            }
+          ],
+          "trafficSpeedEntry": [],
+          "viaWaypoint": []
+        }
+      ],
+      "overviewPolyline": {
+        "points": "mcmyHzrTbAwP@u@Um@YkAsAoGQ}@dAIVEAWzRoCxLu@BTP?LKx@GVCh@ER?LDr@JBqA"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypointOrder": []
+    }
+  ],
+  "status": "OK"
+}

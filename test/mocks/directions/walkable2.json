@@ -1,0 +1,339 @@
+{
+  "geocodedWaypoints": [
+    {
+      "geocoderStatus": "OK",
+      "placeId": "ChIJwcFkl64cdkgR4ip_L37cLLo",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "geocoderStatus": "OK",
+      "placeId": "ChIJxx7AWksDdkgR-ZJdNIddzQI",
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 51.5207324,
+          "lng": -0.0754976
+        },
+        "southwest": {
+          "lat": 51.514191,
+          "lng": -0.08938
+        }
+      },
+      "copyrights": "Map data ©2017 Google",
+      "legs": [
+        {
+          "arrivalTime": {
+            "text": "1:07pm",
+            "timeZone": "Europe/London",
+            "value": 1494850074
+          },
+          "departureTime": {
+            "text": "12:58pm",
+            "timeZone": "Europe/London",
+            "value": 1494849485
+          },
+          "distance": {
+            "text": "1.5 km",
+            "value": 1539
+          },
+          "duration": {
+            "text": "10 mins",
+            "value": 589
+          },
+          "endAddress": "Aldgate, London, UK",
+          "endLocation": {
+            "lat": 51.514191,
+            "lng": -0.07552099999999999
+          },
+          "startAddress": "Finsbury Square, London EC2A, UK",
+          "startLocation": {
+            "lat": 51.5207324,
+            "lng": -0.0857735
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 439
+              },
+              "duration": {
+                "text": "6 mins",
+                "value": 344
+              },
+              "endLocation": {
+                "lat": 51.518463,
+                "lng": -0.08938
+              },
+              "htmlInstructions": "Walk to Moorgate Station",
+              "polyline": {
+                "points": "qsmyH`wObAPA|AG~AAJGbARDAVF@j@Lh@Jh@N`ATRFMl@Mf@RHfBv@d@RE`@CH?HALATl@bA"
+              },
+              "startLocation": {
+                "lat": 51.5207324,
+                "lng": -0.0857735
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "38 m",
+                    "value": 38
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 28
+                  },
+                  "endLocation": {
+                    "lat": 51.5203906,
+                    "lng": -0.0858608
+                  },
+                  "htmlInstructions": "Head <b>south</b> on <b>Finsbury Square</b>",
+                  "polyline": {
+                    "points": "qsmyH`wObAP"
+                  },
+                  "startLocation": {
+                    "lat": 51.5207324,
+                    "lng": -0.0857735
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "94 m",
+                    "value": 94
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 71
+                  },
+                  "endLocation": {
+                    "lat": 51.5204943,
+                    "lng": -0.0872091
+                  },
+                  "htmlInstructions": "Turn <b>right</b> to stay on <b>Finsbury Square</b>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "mqmyHrwOA|AG~AAJGbA"
+                  },
+                  "startLocation": {
+                    "lat": 51.5203906,
+                    "lng": -0.0858608
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "12 m",
+                    "value": 12
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 11
+                  },
+                  "endLocation": {
+                    "lat": 51.5203874,
+                    "lng": -0.08724319999999999
+                  },
+                  "htmlInstructions": "Turn <b>left</b> onto <b>City Rd</b>/<b>Finsbury Pavement</b>/<b>A501</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "armyH``PRD"
+                  },
+                  "startLocation": {
+                    "lat": 51.5204943,
+                    "lng": -0.0872091
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 134
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 113
+                  },
+                  "endLocation": {
+                    "lat": 51.5192887,
+                    "lng": -0.0877312
+                  },
+                  "htmlInstructions": "Take the crosswalk",
+                  "polyline": {
+                    "points": "mqmyHf`PAVF@j@Lh@Jh@N`ATRF"
+                  },
+                  "startLocation": {
+                    "lat": 51.5203874,
+                    "lng": -0.08724319999999999
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "34 m",
+                    "value": 34
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 29
+                  },
+                  "endLocation": {
+                    "lat": 51.51943379999999,
+                    "lng": -0.0881607
+                  },
+                  "htmlInstructions": "Turn <b>right</b> onto <b>Ropemaker St</b>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "qjmyHhcPMl@Mf@"
+                  },
+                  "startLocation": {
+                    "lat": 51.5192887,
+                    "lng": -0.0877312
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 95
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 68
+                  },
+                  "endLocation": {
+                    "lat": 51.5186219,
+                    "lng": -0.08859
+                  },
+                  "htmlInstructions": "Turn <b>left</b> onto <b>Moorfields</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "mkmyH~ePRHfBv@d@R"
+                  },
+                  "startLocation": {
+                    "lat": 51.51943379999999,
+                    "lng": -0.0881607
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "32 m",
+                    "value": 32
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 24
+                  },
+                  "endLocation": {
+                    "lat": 51.518463,
+                    "lng": -0.08938
+                  },
+                  "htmlInstructions": "Turn <b>right</b> onto <b>New Union St</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "kfmyHthPE`@CH?HALATl@bA"
+                  },
+                  "startLocation": {
+                    "lat": 51.5186219,
+                    "lng": -0.08859
+                  },
+                  "travelMode": "WALKING"
+                }
+              ],
+              "travelMode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "1.1 km",
+                "value": 1100
+              },
+              "duration": {
+                "text": "4 mins",
+                "value": 240
+              },
+              "endLocation": {
+                "lat": 51.514191,
+                "lng": -0.07552099999999999
+              },
+              "htmlInstructions": "Subway towards Aldgate",
+              "polyline": {
+                "points": "kemyHrmPtA}I~@wLb@wETuCBe@JqAFk@J{@XmBl@cDhAuFp@kCv@uCVy@To@dBiE^u@~@aBl@}@j@o@TO@B"
+              },
+              "startLocation": {
+                "lat": 51.518463,
+                "lng": -0.08938
+              },
+              "transitDetails": {
+                "arrivalStop": {
+                  "location": {
+                    "lat": 51.514191,
+                    "lng": -0.07552099999999999
+                  },
+                  "name": "Aldgate Station"
+                },
+                "arrivalTime": {
+                  "text": "1:07pm",
+                  "timeZone": "Europe/London",
+                  "value": 1494850074
+                },
+                "departureStop": {
+                  "location": {
+                    "lat": 51.518463,
+                    "lng": -0.08938
+                  },
+                  "name": "Moorgate Station"
+                },
+                "departureTime": {
+                  "text": "1:03pm",
+                  "timeZone": "Europe/London",
+                  "value": 1494849833
+                },
+                "headsign": "Aldgate",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Transport for London",
+                      "url": "https://tfl.gov.uk/modes/tube/"
+                    }
+                  ],
+                  "color": "#880e4f",
+                  "shortName": "Metropolitan",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIcon": "//maps.gstatic.com/mapfiles/transit/iw2/6/uk-london-metro.png",
+                    "name": "Subway",
+                    "type": "SUBWAY"
+                  }
+                },
+                "numStops": 2
+              },
+              "travelMode": "TRANSIT"
+            }
+          ],
+          "trafficSpeedEntry": [],
+          "viaWaypoint": []
+        }
+      ],
+      "overviewPolyline": {
+        "points": "qsmyH`wObAPA|AIjBGbARDAVF@tAXjBd@RFMl@Mf@RHlCjAIj@AVATl@bAtA}IbBoSl@yHd@iDvByKhBaHl@iBdC_GlB_Dj@o@TO@B"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypointOrder": []
+    }
+  ],
+  "status": "OK"
+}

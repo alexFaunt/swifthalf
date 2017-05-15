@@ -1,0 +1,408 @@
+{
+  "geocodedWaypoints": [
+    {
+      "geocoderStatus": "OK",
+      "placeId": "ChIJIcvmuq0EdkgR1FsDFILLMmk",
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "subway_station",
+        "transit_station"
+      ]
+    },
+    {
+      "geocoderStatus": "OK",
+      "placeId": "ChIJqXW6FCkFdkgRAuLmB2pExyM",
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "spa"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 51.5116568,
+          "lng": -0.103649
+        },
+        "southwest": {
+          "lat": 51.50071699999999,
+          "lng": -0.145135
+        }
+      },
+      "copyrights": "Map data ©2017 Google",
+      "legs": [
+        {
+          "arrivalTime": {
+            "text": "1:23pm",
+            "timeZone": "Europe/London",
+            "value": 1494851012
+          },
+          "departureTime": {
+            "text": "1:11pm",
+            "timeZone": "Europe/London",
+            "value": 1494850313
+          },
+          "distance": {
+            "text": "4.2 km",
+            "value": 4150
+          },
+          "duration": {
+            "text": "12 mins",
+            "value": 699
+          },
+          "endAddress": "9 Fitzmaurice Pl, Mayfair, London W1J 5JD, UK",
+          "endLocation": {
+            "lat": 51.5083551,
+            "lng": -0.1449512
+          },
+          "startAddress": "Blackfriars, London EC4V 4DY, UK",
+          "startLocation": {
+            "lat": 51.5116568,
+            "lng": -0.1036648
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "2.2 km",
+                "value": 2162
+              },
+              "duration": {
+                "text": "5 mins",
+                "value": 300
+              },
+              "endLocation": {
+                "lat": 51.501183,
+                "lng": -0.124813
+              },
+              "htmlInstructions": "Subway towards Edgware Road",
+              "polyline": {
+                "points": "{zkyHzfS`@ADlC?L?JzAb_@EvE@lEJdERzEFr@?@PvBf@tEl@nEz@dEdA~Dh@tAj@nAp@rAp@hAr@`Ap@t@lBbB|@j@fAv@LLXTr@j@LHvAr@vAh@vCn@hGpAlDp@z@Rv@`@pAfAf@h@T\\NVJS"
+              },
+              "startLocation": {
+                "lat": 51.5116568,
+                "lng": -0.1036648
+              },
+              "transitDetails": {
+                "arrivalStop": {
+                  "location": {
+                    "lat": 51.501183,
+                    "lng": -0.124813
+                  },
+                  "name": "Westminster Station"
+                },
+                "arrivalTime": {
+                  "text": "1:16pm",
+                  "timeZone": "Europe/London",
+                  "value": 1494850612
+                },
+                "departureStop": {
+                  "location": {
+                    "lat": 51.5116568,
+                    "lng": -0.1036648
+                  },
+                  "name": "Blackfriars"
+                },
+                "departureTime": {
+                  "text": "1:11pm",
+                  "timeZone": "Europe/London",
+                  "value": 1494850313
+                },
+                "headsign": "Edgware Road",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Transport for London",
+                      "url": "https://tfl.gov.uk/modes/tube/"
+                    }
+                  ],
+                  "color": "#ffc107",
+                  "shortName": "Circle",
+                  "textColor": "#000000",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIcon": "//maps.gstatic.com/mapfiles/transit/iw2/6/uk-london-metro.png",
+                    "name": "Subway",
+                    "type": "SUBWAY"
+                  }
+                },
+                "numStops": 3
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "20 m",
+                "value": 20
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 0
+              },
+              "endLocation": {
+                "lat": 51.50100699999999,
+                "lng": -0.124907
+              },
+              "htmlInstructions": "Walk to Westminster Station",
+              "polyline": {
+                "points": "kyiyH`kW`@R"
+              },
+              "startLocation": {
+                "lat": 51.501183,
+                "lng": -0.124813
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "20 m",
+                    "value": 20
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 0
+                  },
+                  "endLocation": {
+                    "lat": 51.50100699999999,
+                    "lng": -0.124907
+                  },
+                  "polyline": {
+                    "points": "kyiyH`kW`@R"
+                  },
+                  "startLocation": {
+                    "lat": 51.501183,
+                    "lng": -0.124813
+                  },
+                  "travelMode": "WALKING"
+                }
+              ],
+              "travelMode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "1.6 km",
+                "value": 1624
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 120
+              },
+              "endLocation": {
+                "lat": 51.5069125,
+                "lng": -0.1428496
+              },
+              "htmlInstructions": "Subway towards Willesden Green",
+              "polyline": {
+                "points": "ixiyHtkWx@BGdHU|Fm@fI]vCi@pBy@dCoCdJaA`CeBzBaBtAeBjAeEjB{AbA{AxAaBlCoAxCc@~BDdCPzA\\tBXzD@vHE?"
+              },
+              "startLocation": {
+                "lat": 51.50100699999999,
+                "lng": -0.124907
+              },
+              "transitDetails": {
+                "arrivalStop": {
+                  "location": {
+                    "lat": 51.5069125,
+                    "lng": -0.1428496
+                  },
+                  "name": "Green Park Station"
+                },
+                "arrivalTime": {
+                  "text": "1:17pm",
+                  "timeZone": "Europe/London",
+                  "value": 1494850675
+                },
+                "departureStop": {
+                  "location": {
+                    "lat": 51.50100699999999,
+                    "lng": -0.124907
+                  },
+                  "name": "Westminster Station"
+                },
+                "departureTime": {
+                  "text": "1:16pm",
+                  "timeZone": "Europe/London",
+                  "value": 1494850614
+                },
+                "headsign": "Willesden Green",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Transport for London",
+                      "url": "https://tfl.gov.uk/modes/tube/"
+                    }
+                  ],
+                  "color": "#757575",
+                  "shortName": "Jubilee",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIcon": "//maps.gstatic.com/mapfiles/transit/iw2/6/uk-london-metro.png",
+                    "name": "Subway",
+                    "type": "SUBWAY"
+                  }
+                },
+                "numStops": 1
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 344
+              },
+              "duration": {
+                "text": "6 mins",
+                "value": 333
+              },
+              "endLocation": {
+                "lat": 51.5083551,
+                "lng": -0.1449512
+              },
+              "htmlInstructions": "Walk to 9 Fitzmaurice Pl, Mayfair, London W1J 5JD, UK",
+              "polyline": {
+                "points": "e}jyHx{ZjADW\\j@~Ag@n@yDpF[`@UQw@_@QIKCWZ"
+              },
+              "startLocation": {
+                "lat": 51.5069125,
+                "lng": -0.1428496
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "42 m",
+                    "value": 42
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 92
+                  },
+                  "endLocation": {
+                    "lat": 51.506527,
+                    "lng": -0.14288
+                  },
+                  "polyline": {
+                    "points": "e}jyHx{ZjAD"
+                  },
+                  "startLocation": {
+                    "lat": 51.5069125,
+                    "lng": -0.1428496
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "41 m",
+                    "value": 41
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 26
+                  },
+                  "endLocation": {
+                    "lat": 51.5064319,
+                    "lng": -0.1435105
+                  },
+                  "htmlInstructions": "Head <b>southwest</b> on <b>Piccadilly</b>/<b>A4</b> toward <b>Bolton St</b>",
+                  "polyline": {
+                    "points": "yzjyH~{ZW\\j@~A"
+                  },
+                  "startLocation": {
+                    "lat": 51.506527,
+                    "lng": -0.14288
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 180
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 146
+                  },
+                  "endLocation": {
+                    "lat": 51.50769529999999,
+                    "lng": -0.145135
+                  },
+                  "htmlInstructions": "Turn <b>right</b> onto <b>Bolton St</b>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "ezjyH|_[g@n@yDpF[`@"
+                  },
+                  "startLocation": {
+                    "lat": 51.5064319,
+                    "lng": -0.1435105
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "65 m",
+                    "value": 65
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 58
+                  },
+                  "endLocation": {
+                    "lat": 51.5082394,
+                    "lng": -0.144807
+                  },
+                  "htmlInstructions": "Turn <b>right</b> onto <b>Curzon St</b>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "cbkyH`j[UQw@_@QIKC"
+                  },
+                  "startLocation": {
+                    "lat": 51.50769529999999,
+                    "lng": -0.145135
+                  },
+                  "travelMode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "16 m",
+                    "value": 16
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 11
+                  },
+                  "endLocation": {
+                    "lat": 51.5083551,
+                    "lng": -0.1449512
+                  },
+                  "htmlInstructions": "Turn <b>left</b> onto <b>Fitzmaurice Pl</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "oekyH`h[WZ"
+                  },
+                  "startLocation": {
+                    "lat": 51.5082394,
+                    "lng": -0.144807
+                  },
+                  "travelMode": "WALKING"
+                }
+              ],
+              "travelMode": "WALKING"
+            }
+          ],
+          "trafficSpeedEntry": [],
+          "viaWaypoint": []
+        }
+      ],
+      "overviewPolyline": {
+        "points": "{zkyHzfS`@ADlC?XzAb_@EvE@lEJdERzEFr@PxBtAdLz@dEdA~DtAdDbB|Cr@`Ap@t@lBbB|@j@tAdAXT`At@vAr@vAh@`L`ChFdAv@`@pAfA|@fANVJS`@Rx@BGdHU|Fm@fI]vCi@pBy@dCoCdJaA`CeBzBaBtAeBjAeEjB{AbA{AxAaBlCoAxCc@~BDdCPzA\\tBXzD@vHE?jADW\\j@~AaF`H[`@UQiAi@KCWZ"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypointOrder": []
+    }
+  ],
+  "status": "OK"
+}
