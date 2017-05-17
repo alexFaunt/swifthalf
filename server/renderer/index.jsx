@@ -1,8 +1,8 @@
 import { h } from 'preact'
 import renderToString from 'preact-render-to-string'
 import { StaticRouter, matchPath } from 'react-router'
-import App, { createStore, setConfig } from '../../app'
-import { values, omit } from '../../common/utils/object'
+import { values, omit } from 'common/utils/object'
+import App, { createStore, setConfig } from 'app'
 
 const Root = ({ store, ...rest }) => (
   <StaticRouter {...rest}>

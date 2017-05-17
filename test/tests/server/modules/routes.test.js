@@ -1,5 +1,5 @@
+import { getMidpoint } from 'server/modules/routes'
 import suitablebreak1 from '../../../mocks/directions/suitablebreak1.json'
-import { getMidpoint } from '../../../../server/modules/routes'
 
 describe('Routes module', () => {
   describe('#getMidpoint', () => {
