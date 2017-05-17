@@ -1,8 +1,8 @@
 import { spy } from 'sinon'
-import createAction from '../../../../app/redux/create-action'
-import apiMiddleware from '../../../../app/middleware/api'
+import createAction from 'app/redux/create-action'
+import apiMiddleware from 'app/middleware/api'
+import apiUtil from 'app/services/api'
 import resetSpies from '../../../utils/reset-spies'
-import apiUtil from '../../../../app/services/api'
 
 describe('Api middleware', () => {
   const nextSpy = spy()

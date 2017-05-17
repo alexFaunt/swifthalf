@@ -1,5 +1,5 @@
+import { validateDirectionsQuery } from 'common/validation'
 import google from './google'
-import { validateDirectionsQuery } from '../../common/validation'
 
 const directions = google('directions')
 

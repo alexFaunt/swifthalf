@@ -1,4 +1,4 @@
-import { toCamelCase } from '../../../../common/utils/string'
+import { toCamelCase } from 'common/utils/string'
 
 describe('String utility', () => {
   describe('#toCamelCase', () => {

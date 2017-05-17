@@ -4,7 +4,7 @@ import {
   values,
   toCamelCase,
   invert
-} from '../../../../common/utils/object'
+} from 'common/utils/object'
 
 describe('object utilities', () => {
   describe('#omit', () => {

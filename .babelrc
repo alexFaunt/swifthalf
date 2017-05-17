@@ -5,7 +5,15 @@
     "stage-1"
   ],
   "plugins": [
-    ["transform-react-jsx", { "pragma": "h" }]
+    ["transform-react-jsx", { "pragma": "h" }],
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "common": "./common",
+        "app": "./app",
+        "server": "./server"
+      }
+    }],
   ],
   "env": {
     "test": {
