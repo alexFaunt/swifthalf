@@ -1,6 +1,6 @@
 import { h, Component } from 'preact'
 import { getQuery } from '../../../../common/utils/url'
-
+// TODO - ALL COMPONETNS SHOULD BE PURECOMPONETNS
 if (process.browser) require('./Input.css')
 
 export default class Input extends Component {

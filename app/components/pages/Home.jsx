@@ -1,29 +1,35 @@
 import { h } from 'preact'
 import { connect } from 'react-redux'
+import { getQuery } from 'common/utils/url'
+import { validateDirectionsQuery } from 'common/validation'
 import Loader from '../atoms/Loader'
 import EntryForm from '../molecules/EntryForm'
 import Title from '../molecules/Title'
 import VenueList from '../organisms/VenueList'
 import { search as searchAction } from '../../actions/search'
-import { getQuery } from '../../../common/utils/url'
-import { validateDirectionsQuery } from '../../../common/validation'
 import { client as fetcher } from '../wrappers/fetcher'
-import Template, { Primary, Secondary } from '../templates/Default'
+import Template, { Background, Primary, Secondary } from '../templates/Default'
 import { createId as createSearchId } from '../../utils/search'
-import GoogleMap from '../molecules/GoogleMap'
+import Section from '../atoms/Section'
+import Mapbox from '../atoms/Mapbox'
 
+// Use venues for <VenuesMap venues={} />
+// Use https://www.mapbox.com/mapbox-gl-js/example/geojson-markers/ to add markers
 const Home = ({ origin, destination, pending, venues, midpoint }) => (
   <Template>
+    <Background>
+      <Mapbox center={midpoint} />
+    </Background>
     <Primary>
-      <Title />
-      <EntryForm origin={origin} destination={destination} />
+      <Section>
+        <Title />
+        <EntryForm origin={origin} destination={destination} />
+      </Section>
     </Primary>
     {
       origin && destination &&
       <Secondary>
         <Loader loading={pending} />
-        <GoogleMap center={midpoint} />
-        <VenueList origin={origin} destination={destination} venueIds={venues} />
       </Secondary>
     }
   </Template>

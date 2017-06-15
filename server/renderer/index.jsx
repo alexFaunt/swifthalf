@@ -18,9 +18,8 @@ export default async function (ctx) {
   const context = {}
   const store = createStore()
   store.dispatch(setConfig({
-    google: {
-      API_KEY: process.env.GOOGLE_KEY,
-      language: 'en'
+    mapbox: {
+      API_KEY: process.env.MAPBOX_KEY
     }
   }))
 

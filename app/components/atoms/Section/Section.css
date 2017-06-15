@@ -1,0 +1,7 @@
+@import '../../styles/vars';
+
+.section {
+  background: white; /* TODO - vars n shit ? */
+  padding: var(--spacingMedium);
+
+}

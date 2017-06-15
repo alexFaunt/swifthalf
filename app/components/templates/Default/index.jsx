@@ -2,17 +2,19 @@ import { h } from 'preact'
 
 if (process.browser) require('./default.css')
 
-export default ({ children, className = '' }) => (
-  <main className={`default ${className}`}>
-    { children }
-  </main>
+export default ({ className = '', ...props }) => (
+  <main className={`default ${className}`} {...props} />
 )
 
-export const Primary = ({ children }) => <section className="primary">{ children }</section>
+// TODO - sort this god damn bs out.
+export const Primary = (props) => <div className="template-primary" {...props} />
+
+export const Background = (props) => <div className="template-background" {...props} />
+
 export const Secondary = ({ children }) => (
-  <div className="secondary">
-    <section className="secondary-content">
+  <div className="template-secondary">
+    <div className="template-secondary-content">
       { children }
-    </section>
+    </div>
   </div>
 )
