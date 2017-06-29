@@ -2,13 +2,11 @@ import { h } from 'preact'
 import GoogleMapReact from 'google-map-react'
 import { connect } from 'react-redux'
 
-const Thing = () => (
-  <div>Thing</div>
-)
 // TODO - bounds wont work for some reason... would be nicer.
 
 const defaultCenter = { lat: 51.506453, lng: -0.128437 } // Default is london for now.
 const GoogleMap = ({
+  children,
   API_KEY,
   language,
   center = defaultCenter,
@@ -22,11 +20,7 @@ const GoogleMap = ({
     center={center}
     defaultZoom={zoom}
   >
-    <Thing
-      lat={59.955413}
-      lng={30.337844}
-      text={'Kreyser Avrora'}
-    />
+    { children }
   </GoogleMapReact>
 )
 

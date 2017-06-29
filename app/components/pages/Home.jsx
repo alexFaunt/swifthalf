@@ -3,14 +3,13 @@ import { connect } from 'react-redux'
 import Loader from '../atoms/Loader'
 import EntryForm from '../molecules/EntryForm'
 import Title from '../molecules/Title'
-import VenueList from '../organisms/VenueList'
 import { search as searchAction } from '../../actions/search'
 import { getQuery } from '../../../common/utils/url'
 import { validateDirectionsQuery } from '../../../common/validation'
 import { client as fetcher } from '../wrappers/fetcher'
 import Template, { Primary, Secondary } from '../templates/Default'
 import { createId as createSearchId } from '../../utils/search'
-import GoogleMap from '../molecules/GoogleMap'
+import VenuesMap from '../molecules/VenuesMap'
 
 const Home = ({ origin, destination, pending, venues, midpoint }) => (
   <Template>
@@ -22,8 +21,7 @@ const Home = ({ origin, destination, pending, venues, midpoint }) => (
       origin && destination &&
       <Secondary>
         <Loader loading={pending} />
-        <GoogleMap center={midpoint} />
-        <VenueList origin={origin} destination={destination} venueIds={venues} />
+        <VenuesMap center={midpoint} venueIds={venues} />
       </Secondary>
     }
   </Template>
